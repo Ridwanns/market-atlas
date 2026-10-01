@@ -1,6 +1,6 @@
 {
-  "fetched_utc": "2026-10-01T11:10:44.089433+00:00",
-  "fetched_wib": "2026-10-01T18:10:44.089433+07:00",
+  "fetched_utc": "2026-10-01T11:13:25.282468+00:00",
+  "fetched_wib": "2026-10-01T18:13:25.282468+07:00",
   "quotes": [
     {
       "symbol": "NVDA",
@@ -8,19 +8,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:01+00:00",
       "quote_time_wib": "2026-10-01T03:00:01+07:00",
-      "captured_utc": "2026-10-01T11:10:42.984934+00:00",
-      "captured_wib": "2026-10-01T18:10:42.984934+07:00",
+      "captured_utc": "2026-10-01T11:13:25.012089+00:00",
+      "captured_wib": "2026-10-01T18:13:25.012089+07:00",
       "previous_close": 227.21,
       "session": "Pre-market",
       "exchange": "NasdaqGS",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 230.2977,
-        "time_utc": "2026-10-01T11:10:43+00:00",
+        "price": 230.298,
+        "time_utc": "2026-10-01T11:13:24+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:43+07:00",
-        "age_minutes_at_capture": 0,
+        "time_wib": "2026-10-01T18:13:24+07:00",
+        "age_minutes_at_capture": 0.016868142286936443,
         "after_regular_session": false
       },
       "intraday": [
@@ -785,8 +785,20 @@
           "price": 230.378
         },
         {
-          "time": "2026-10-01T11:10:43+00:00",
+          "time": "2026-10-01T11:10:00+00:00",
+          "price": 230.3465
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 230.378
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
           "price": 230.2977
+        },
+        {
+          "time": "2026-10-01T11:13:24+00:00",
+          "price": 230.298
         }
       ]
     },
@@ -796,19 +808,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:02+00:00",
       "quote_time_wib": "2026-10-01T03:00:02+07:00",
-      "captured_utc": "2026-10-01T11:10:42.985930+00:00",
-      "captured_wib": "2026-10-01T18:10:42.985930+07:00",
+      "captured_utc": "2026-10-01T11:13:25.012982+00:00",
+      "captured_wib": "2026-10-01T18:13:25.012982+07:00",
       "previous_close": 456.94,
       "session": "Pre-market",
       "exchange": "NYSE",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 458.97,
-        "time_utc": "2026-10-01T11:10:20+00:00",
+        "price": 458.69,
+        "time_utc": "2026-10-01T11:13:01+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:20+07:00",
-        "age_minutes_at_capture": 0.383098828792572,
+        "time_wib": "2026-10-01T18:13:01+07:00",
+        "age_minutes_at_capture": 0.40021637280782063,
         "after_regular_session": false
       },
       "intraday": [
@@ -1149,8 +1161,20 @@
           "price": 458.9
         },
         {
-          "time": "2026-10-01T11:10:20+00:00",
+          "time": "2026-10-01T11:10:00+00:00",
           "price": 458.97
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 458.9
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
+          "price": 456.19
+        },
+        {
+          "time": "2026-10-01T11:13:01+00:00",
+          "price": 458.69
         }
       ]
     },
@@ -1160,19 +1184,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:01+00:00",
       "quote_time_wib": "2026-10-01T03:00:01+07:00",
-      "captured_utc": "2026-10-01T11:10:42.985930+00:00",
-      "captured_wib": "2026-10-01T18:10:42.985930+07:00",
+      "captured_utc": "2026-10-01T11:13:25.013538+00:00",
+      "captured_wib": "2026-10-01T18:13:25.013538+07:00",
       "previous_close": 115.93,
       "session": "Pre-market",
       "exchange": "NasdaqGS",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 120.33,
-        "time_utc": "2026-10-01T11:10:41+00:00",
+        "price": 120.3547,
+        "time_utc": "2026-10-01T11:13:23+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:41+07:00",
-        "age_minutes_at_capture": 0.03309882879257202,
+        "time_wib": "2026-10-01T18:13:23+07:00",
+        "age_minutes_at_capture": 0.03355897267659505,
         "after_regular_session": false
       },
       "intraday": [
@@ -1937,8 +1961,20 @@
           "price": 120.38
         },
         {
-          "time": "2026-10-01T11:10:41+00:00",
-          "price": 120.33
+          "time": "2026-10-01T11:10:00+00:00",
+          "price": 120.45
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 120.39
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
+          "price": 120.45
+        },
+        {
+          "time": "2026-10-01T11:13:23+00:00",
+          "price": 120.3547
         }
       ]
     },
@@ -1948,19 +1984,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:01+00:00",
       "quote_time_wib": "2026-10-01T03:00:01+07:00",
-      "captured_utc": "2026-10-01T11:10:42.986929+00:00",
-      "captured_wib": "2026-10-01T18:10:42.986929+07:00",
+      "captured_utc": "2026-10-01T11:13:25.014094+00:00",
+      "captured_wib": "2026-10-01T18:13:25.014094+07:00",
       "previous_close": 607.57,
       "session": "Pre-market",
       "exchange": "NasdaqGS",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 616.5,
-        "time_utc": "2026-10-01T11:10:43+00:00",
+        "price": 617.2,
+        "time_utc": "2026-10-01T11:13:23+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:43+07:00",
-        "age_minutes_at_capture": 0,
+        "time_wib": "2026-10-01T18:13:23+07:00",
+        "age_minutes_at_capture": 0.03356823126475016,
         "after_regular_session": false
       },
       "intraday": [
@@ -2725,8 +2761,20 @@
           "price": 616.9225
         },
         {
-          "time": "2026-10-01T11:10:43+00:00",
-          "price": 616.5
+          "time": "2026-10-01T11:10:00+00:00",
+          "price": 617.0
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 616.86
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
+          "price": 617.0
+        },
+        {
+          "time": "2026-10-01T11:13:23+00:00",
+          "price": 617.2
         }
       ]
     },
@@ -2736,19 +2784,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:01+00:00",
       "quote_time_wib": "2026-10-01T03:00:01+07:00",
-      "captured_utc": "2026-10-01T11:10:42.986929+00:00",
-      "captured_wib": "2026-10-01T18:10:42.986929+07:00",
+      "captured_utc": "2026-10-01T11:13:25.014974+00:00",
+      "captured_wib": "2026-10-01T18:13:25.014974+07:00",
       "previous_close": 1065.08,
       "session": "Pre-market",
       "exchange": "NasdaqGS",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 1059.98,
-        "time_utc": "2026-10-01T11:10:42+00:00",
+        "price": 1059.84,
+        "time_utc": "2026-10-01T11:13:24+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:42+07:00",
-        "age_minutes_at_capture": 0.01644882361094157,
+        "time_wib": "2026-10-01T18:13:24+07:00",
+        "age_minutes_at_capture": 0.0169162392616272,
         "after_regular_session": false
       },
       "intraday": [
@@ -3513,8 +3561,20 @@
           "price": 1061.02
         },
         {
-          "time": "2026-10-01T11:10:42+00:00",
-          "price": 1059.98
+          "time": "2026-10-01T11:10:00+00:00",
+          "price": 1061.3
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 1061.0752
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
+          "price": 1060.3503
+        },
+        {
+          "time": "2026-10-01T11:13:24+00:00",
+          "price": 1059.84
         }
       ]
     },
@@ -3524,19 +3584,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:00+00:00",
       "quote_time_wib": "2026-10-01T03:00:00+07:00",
-      "captured_utc": "2026-10-01T11:10:42.987933+00:00",
-      "captured_wib": "2026-10-01T18:10:42.987933+07:00",
+      "captured_utc": "2026-10-01T11:13:25.020786+00:00",
+      "captured_wib": "2026-10-01T18:13:25.020786+07:00",
       "previous_close": 764.2,
       "session": "Pre-market",
       "exchange": "NYSEArca",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 765.0,
-        "time_utc": "2026-10-01T11:10:15+00:00",
+        "price": 764.91,
+        "time_utc": "2026-10-01T11:13:22+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:15+07:00",
-        "age_minutes_at_capture": 0.46646554470062257,
+        "time_wib": "2026-10-01T18:13:22+07:00",
+        "age_minutes_at_capture": 0.05034643809000651,
         "after_regular_session": false
       },
       "intraday": [
@@ -4213,7 +4273,15 @@
           "price": 765.77
         },
         {
+          "time": "2026-10-01T10:55:00+00:00",
+          "price": 765.73
+        },
+        {
           "time": "2026-10-01T10:56:00+00:00",
+          "price": 765.58
+        },
+        {
+          "time": "2026-10-01T10:57:00+00:00",
           "price": 765.58
         },
         {
@@ -4249,8 +4317,20 @@
           "price": 765.455
         },
         {
-          "time": "2026-10-01T11:10:15+00:00",
+          "time": "2026-10-01T11:10:00+00:00",
           "price": 765.0
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 765.05
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
+          "price": 764.92
+        },
+        {
+          "time": "2026-10-01T11:13:22+00:00",
+          "price": 764.91
         }
       ]
     },
@@ -4260,19 +4340,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:00+00:00",
       "quote_time_wib": "2026-10-01T03:00:00+07:00",
-      "captured_utc": "2026-10-01T11:10:43.368198+00:00",
-      "captured_wib": "2026-10-01T18:10:43.368198+07:00",
+      "captured_utc": "2026-10-01T11:13:25.125112+00:00",
+      "captured_wib": "2026-10-01T18:13:25.125112+07:00",
       "previous_close": 737.93,
       "session": "Pre-market",
       "exchange": "NasdaqGM",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 744.4319,
-        "time_utc": "2026-10-01T11:10:40+00:00",
+        "price": 744.498,
+        "time_utc": "2026-10-01T11:13:22+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:40+07:00",
-        "age_minutes_at_capture": 0.05613663196563721,
+        "time_wib": "2026-10-01T18:13:22+07:00",
+        "age_minutes_at_capture": 0.052085192998250325,
         "after_regular_session": false
       },
       "intraday": [
@@ -5037,8 +5117,20 @@
           "price": 744.6433
         },
         {
-          "time": "2026-10-01T11:10:40+00:00",
-          "price": 744.4319
+          "time": "2026-10-01T11:10:00+00:00",
+          "price": 744.646
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 744.56
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
+          "price": 744.5982
+        },
+        {
+          "time": "2026-10-01T11:13:22+00:00",
+          "price": 744.498
         }
       ]
     },
@@ -5048,8 +5140,8 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:38:12+00:00",
       "quote_time_wib": "2026-10-01T03:38:12+07:00",
-      "captured_utc": "2026-10-01T11:10:43.458911+00:00",
-      "captured_wib": "2026-10-01T18:10:43.458911+07:00",
+      "captured_utc": "2026-10-01T11:13:25.130988+00:00",
+      "captured_wib": "2026-10-01T18:13:25.130988+07:00",
       "previous_close": 7670.84,
       "session": "Pre-market",
       "exchange": "SNP",
@@ -5060,7 +5152,7 @@
         "time_utc": "2026-09-30T20:38:12+00:00",
         "observation_type": "regular quote fallback; minute bars unavailable",
         "time_wib": "2026-10-01T03:38:12+07:00",
-        "age_minutes_at_capture": 872.524315182368,
+        "age_minutes_at_capture": 875.2188498020172,
         "after_regular_session": false
       },
       "intraday": []
@@ -5071,8 +5163,8 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T21:15:59+00:00",
       "quote_time_wib": "2026-10-01T04:15:59+07:00",
-      "captured_utc": "2026-10-01T11:10:43.464910+00:00",
-      "captured_wib": "2026-10-01T18:10:43.464910+07:00",
+      "captured_utc": "2026-10-01T11:13:25.133057+00:00",
+      "captured_wib": "2026-10-01T18:13:25.133057+07:00",
       "previous_close": 26797.541,
       "session": "Pre-market",
       "exchange": "Nasdaq GIDS",
@@ -5083,7 +5175,7 @@
         "time_utc": "2026-09-30T21:15:59+00:00",
         "observation_type": "regular quote fallback; minute bars unavailable",
         "time_wib": "2026-10-01T04:15:59+07:00",
-        "age_minutes_at_capture": 834.7410818338394,
+        "age_minutes_at_capture": 837.4355509479841,
         "after_regular_session": false
       },
       "intraday": []
@@ -5094,8 +5186,8 @@
       "currency": "IDR",
       "quote_time_utc": "2026-10-01T09:00:04+00:00",
       "quote_time_wib": "2026-10-01T16:00:04+07:00",
-      "captured_utc": "2026-10-01T11:10:43.464910+00:00",
-      "captured_wib": "2026-10-01T18:10:43.464910+07:00",
+      "captured_utc": "2026-10-01T11:13:25.134316+00:00",
+      "captured_wib": "2026-10-01T18:13:25.134316+07:00",
       "previous_close": 6121.7,
       "session": "Closed",
       "exchange": "Jakarta",
@@ -5106,7 +5198,7 @@
         "time_utc": "2026-10-01T09:00:04+00:00",
         "observation_type": "minute bar",
         "time_wib": "2026-10-01T16:00:04+07:00",
-        "age_minutes_at_capture": 130.65774850050607,
+        "age_minutes_at_capture": 133.3522385954857,
         "after_regular_session": false
       },
       "intraday": [
@@ -6402,8 +6494,8 @@
       "currency": "IDR",
       "quote_time_utc": "2026-10-01T10:05:45+00:00",
       "quote_time_wib": "2026-10-01T17:05:45+07:00",
-      "captured_utc": "2026-10-01T11:10:43.465909+00:00",
-      "captured_wib": "2026-10-01T18:10:43.465909+07:00",
+      "captured_utc": "2026-10-01T11:13:25.146260+00:00",
+      "captured_wib": "2026-10-01T18:13:25.146260+07:00",
       "previous_close": 17872.0,
       "session": "FX feed",
       "exchange": "CCY",
@@ -6414,7 +6506,7 @@
         "time_utc": "2026-10-01T10:05:45+00:00",
         "observation_type": "minute bar",
         "time_wib": "2026-10-01T17:05:45+07:00",
-        "age_minutes_at_capture": 64.97443180878957,
+        "age_minutes_at_capture": 67.6691043416659,
         "after_regular_session": false
       },
       "intraday": [
@@ -6534,19 +6626,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:01+00:00",
       "quote_time_wib": "2026-10-01T03:00:01+07:00",
-      "captured_utc": "2026-10-01T11:10:43.472911+00:00",
-      "captured_wib": "2026-10-01T18:10:43.472911+07:00",
+      "captured_utc": "2026-10-01T11:13:25.174109+00:00",
+      "captured_wib": "2026-10-01T18:13:25.174109+07:00",
       "previous_close": 355.1,
       "session": "Pre-market",
       "exchange": "NasdaqGS",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 354.0,
-        "time_utc": "2026-10-01T11:10:42+00:00",
+        "price": 354.0356,
+        "time_utc": "2026-10-01T11:12:47+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:42+07:00",
-        "age_minutes_at_capture": 0.02454852263132731,
+        "time_wib": "2026-10-01T18:12:47+07:00",
+        "age_minutes_at_capture": 0.6362351417541504,
         "after_regular_session": false
       },
       "intraday": [
@@ -7311,8 +7403,16 @@
           "price": 353.75
         },
         {
-          "time": "2026-10-01T11:10:42+00:00",
-          "price": 354.0
+          "time": "2026-10-01T11:10:00+00:00",
+          "price": 353.92
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 354.0183
+        },
+        {
+          "time": "2026-10-01T11:12:47+00:00",
+          "price": 354.0356
         }
       ]
     },
@@ -7322,8 +7422,8 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:03+00:00",
       "quote_time_wib": "2026-10-01T03:00:03+07:00",
-      "captured_utc": "2026-10-01T11:10:43.599295+00:00",
-      "captured_wib": "2026-10-01T18:10:43.599295+07:00",
+      "captured_utc": "2026-10-01T11:13:25.179900+00:00",
+      "captured_wib": "2026-10-01T18:13:25.179900+07:00",
       "previous_close": 433.27,
       "session": "Pre-market",
       "exchange": "NYSE",
@@ -7334,7 +7434,7 @@
         "time_utc": "2026-10-01T08:03:19+00:00",
         "observation_type": "minute bar",
         "time_wib": "2026-10-01T15:03:19+07:00",
-        "age_minutes_at_capture": 187.40998824834824,
+        "age_minutes_at_capture": 190.1029983282089,
         "after_regular_session": false
       },
       "intraday": [
@@ -7362,8 +7462,8 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:03+00:00",
       "quote_time_wib": "2026-10-01T03:00:03+07:00",
-      "captured_utc": "2026-10-01T11:10:43.715467+00:00",
-      "captured_wib": "2026-10-01T18:10:43.715467+07:00",
+      "captured_utc": "2026-10-01T11:13:25.183922+00:00",
+      "captured_wib": "2026-10-01T18:13:25.183922+07:00",
       "previous_close": 248.34,
       "session": "Pre-market",
       "exchange": "NYSE",
@@ -7374,7 +7474,7 @@
         "time_utc": "2026-10-01T11:10:40+00:00",
         "observation_type": "minute bar",
         "time_wib": "2026-10-01T18:10:40+07:00",
-        "age_minutes_at_capture": 0.06192444960276286,
+        "age_minutes_at_capture": 2.753065359592438,
         "after_regular_session": false
       },
       "intraday": [
@@ -7515,6 +7615,10 @@
           "price": 246.0
         },
         {
+          "time": "2026-10-01T10:54:00+00:00",
+          "price": 246.75
+        },
+        {
           "time": "2026-10-01T11:00:00+00:00",
           "price": 246.44
         },
@@ -7554,19 +7658,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:00+00:00",
       "quote_time_wib": "2026-10-01T03:00:00+07:00",
-      "captured_utc": "2026-10-01T11:10:43.829403+00:00",
-      "captured_wib": "2026-10-01T18:10:43.829403+07:00",
+      "captured_utc": "2026-10-01T11:13:25.192166+00:00",
+      "captured_wib": "2026-10-01T18:13:25.192166+07:00",
       "previous_close": 357.84,
       "session": "Pre-market",
       "exchange": "NasdaqGS",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 360.51,
-        "time_utc": "2026-10-01T11:10:30+00:00",
+        "price": 360.54,
+        "time_utc": "2026-10-01T11:12:26+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:30+07:00",
-        "age_minutes_at_capture": 0.23049004872639975,
+        "time_wib": "2026-10-01T18:12:26+07:00",
+        "age_minutes_at_capture": 0.9865361015001933,
         "after_regular_session": false
       },
       "intraday": [
@@ -8007,8 +8111,16 @@
           "price": 360.51
         },
         {
-          "time": "2026-10-01T11:10:30+00:00",
+          "time": "2026-10-01T11:10:00+00:00",
           "price": 360.51
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 361.51
+        },
+        {
+          "time": "2026-10-01T11:12:26+00:00",
+          "price": 360.54
         }
       ]
     },
@@ -8018,19 +8130,19 @@
       "currency": "USD",
       "quote_time_utc": "2026-09-30T20:00:01+00:00",
       "quote_time_wib": "2026-10-01T03:00:01+07:00",
-      "captured_utc": "2026-10-01T11:10:43.837396+00:00",
-      "captured_wib": "2026-10-01T18:10:43.837396+07:00",
+      "captured_utc": "2026-10-01T11:13:25.202017+00:00",
+      "captured_wib": "2026-10-01T18:13:25.202017+07:00",
       "previous_close": 192.35,
       "session": "Pre-market",
       "exchange": "NasdaqGS",
       "provider_delay_minutes": null,
       "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?range=1d&interval=1m&includePrePost=true",
       "latest_minute_bar": {
-        "price": 199.98,
-        "time_utc": "2026-10-01T11:10:40+00:00",
+        "price": 199.155,
+        "time_utc": "2026-10-01T11:13:14+00:00",
         "observation_type": "minute bar",
-        "time_wib": "2026-10-01T18:10:40+07:00",
-        "age_minutes_at_capture": 0.06395659844080608,
+        "time_wib": "2026-10-01T18:13:14+07:00",
+        "age_minutes_at_capture": 0.18670028845469158,
         "after_regular_session": false
       },
       "intraday": [
@@ -8723,8 +8835,20 @@
           "price": 199.7
         },
         {
-          "time": "2026-10-01T11:10:40+00:00",
+          "time": "2026-10-01T11:10:00+00:00",
           "price": 199.98
+        },
+        {
+          "time": "2026-10-01T11:11:00+00:00",
+          "price": 199.22
+        },
+        {
+          "time": "2026-10-01T11:12:00+00:00",
+          "price": 199.89
+        },
+        {
+          "time": "2026-10-01T11:13:14+00:00",
+          "price": 199.155
         }
       ]
     }
