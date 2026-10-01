@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Market Atlas: US and Indonesian markets, AI infrastructure research, quant models and investment scenarios."><title>Market Atlas</title>
+<style>body{margin:0;background:#0d1119;color:#e9eef7;font:16px system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}main{max-width:520px;padding:32px}h1{font-size:38px;letter-spacing:-1px}p{color:#a6b5c9;line-height:1.7}progress{width:100%;accent-color:#76a7ff}a{color:#76a7ff}</style></head>
+<body><main><h1>Market Atlas</h1><p id="status" role="status">Loading the complete research workspace…</p><progress id="progress" aria-label="Loading research"></progress><p>US &amp; Indonesia · AI infrastructure · Investment decisions</p><noscript><p>JavaScript is required for the interactive charts and model workspace.</p></noscript></main>
+<script>
+(async()=>{
+ const status=document.getElementById('status'),progress=document.getElementById('progress');
+ try{
+  if(typeof DecompressionStream==='undefined')throw new Error('Please use a current version of Chrome, Edge, Firefox or Safari.');
+  const response=await fetch('dashboard.html.gz?v=3bfb128c66a6b79b');
+  if(!response.ok)throw new Error('Research download failed ('+response.status+'). Reload to retry.');
+  const length=Number(response.headers.get('Content-Length')),reader=response.body.getReader(),chunks=[];let received=0;
+  while(true){const item=await reader.read();if(item.done)break;chunks.push(item.value);received+=item.value.length;if(length>0){progress.max=length;progress.value=received}status.textContent='Loading research · '+(received/1048576).toFixed(1)+' MB';}
+  status.textContent='Preparing charts and investment models…';
+  const blob=new Blob(chunks),head=new Uint8Array(await blob.slice(0,2).arrayBuffer());
+  const html=head[0]===31&&head[1]===139?await new Response(blob.stream().pipeThrough(new DecompressionStream('gzip'))).text():await blob.text();
+  if(!html.includes('id="investment-decision"'))throw new Error('The downloaded research bundle is incomplete.');
+  document.open();document.write(html);document.close();
+ }catch(error){status.textContent=error.message;progress.hidden=true;}
+})();
+</script></body></html>

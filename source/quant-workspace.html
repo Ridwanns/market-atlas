@@ -1,0 +1,15 @@
+<section id="quant-workspace" class="quant-workspace" hidden aria-labelledby="quant-title">
+  <header class="quant-header">
+    <div><p class="quant-eyebrow">Repository research · visual workspace</p><h2 id="quant-title" tabindex="-1">Quant models</h2><p id="quant-context" class="quant-caption"></p></div>
+    <div class="quant-controls">
+      <label for="quant-ticker">Asset<select id="quant-ticker" aria-label="Quant research asset"></select></label>
+      <label for="quant-horizon">Horizon<select id="quant-horizon"><option value="5">5 sessions</option><option value="20">20 sessions</option></select></label>
+      <label for="quant-view">Explore<select id="quant-view"><option value="summary">Overview</option><option value="forecasts">Forecasts &amp; evidence</option><option value="monte-carlo">Monte Carlo</option><option value="volatility">Volatility</option><option value="tail-risk">Tail risk &amp; drawdown</option><option value="regimes">Regimes &amp; beta</option><option value="factors">Factor attribution</option><option value="timing">Timing &amp; costs</option></select></label>
+    </div>
+  </header>
+  <div id="quant-kpis" class="quant-kpis"></div>
+  <p id="quant-quote-time" class="quant-caption quant-feed" aria-live="polite"></p>
+  <p id="quant-warning" class="quant-warning" hidden></p>
+  <div id="quant-content" class="quant-content"></div>
+  <details class="quant-details"><summary>Exact results, model protocol &amp; data audit</summary><div id="quant-exact"></div></details>
+</section>
