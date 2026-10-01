@@ -7,7 +7,7 @@
  const status=document.getElementById('status'),progress=document.getElementById('progress');
  try{
   if(typeof DecompressionStream==='undefined')throw new Error('Please use a current version of Chrome, Edge, Firefox or Safari.');
-  const response=await fetch('dashboard.html.gz?v=3bfb128c66a6b79b');
+  const response=await fetch('dashboard.html.gz?v=58ed77bf4bf8e3dc');
   if(!response.ok)throw new Error('Research download failed ('+response.status+'). Reload to retry.');
   const length=Number(response.headers.get('Content-Length')),reader=response.body.getReader(),chunks=[];let received=0;
   while(true){const item=await reader.read();if(item.done)break;chunks.push(item.value);received+=item.value.length;if(length>0){progress.max=length;progress.value=received}status.textContent='Loading research · '+(received/1048576).toFixed(1)+' MB';}
