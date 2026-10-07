@@ -5080,8 +5080,8 @@
   ],
   "errors": [],
   "protocol": "Frozen 5/20-session adjusted-close log-return forecasts. Registration must precede the first post-origin regular session open. Provider session timestamps determine eligibility; unknown and late registrations are excluded. Outcomes use completed daily adjusted closes in one retrieval vintage. No refitting, automatic trades, or backdated prospective results. Overlapping horizons are not independent samples.",
-  "checked_utc": "2026-10-07T01:31:41.104095+00:00",
-  "checked_stamp": 1791336701.104095,
+  "checked_utc": "2026-10-07T08:37:46.676678+00:00",
+  "checked_stamp": 1791362266.6766777,
   "summary": {
     "registered_records": 182,
     "pending": 168,
