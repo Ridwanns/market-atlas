@@ -16,7 +16,7 @@ from forecast_monitor import update_monitor
 ROOT = Path(__file__).resolve().parent
 PORT = 8767
 WIB = dt.timezone(dt.timedelta(hours=7))
-SYMBOLS = ['NVDA', 'TSM', 'INTC', 'AMD', 'MU', 'SPY', 'QQQ', '^GSPC', '^IXIC', '^JKSE', 'IDR=X', 'AVGO', 'ETN', 'VRT', 'ALAB', 'CRDO']
+SYMBOLS = ['NVDA', 'TSM', 'MU', 'SPY', '^GSPC', '^IXIC', '^JKSE', 'IDR=X']
 STATE = {'data': None, 'expires': 0}
 LOCK = threading.Lock()
 

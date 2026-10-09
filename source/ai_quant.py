@@ -575,7 +575,7 @@ def fit_asset(meta, spy_meta):
         return meta['id'], result
 
 
-def factors(datasets):
+def factors(datasets, include_benchmark=False):
     url = 'https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip'
     path = DATA / 'ff5-monthly-raw.zip'
     if not path.exists():
@@ -589,7 +589,7 @@ def factors(datasets):
             ff[cells[0].strip()] = np.array([float(v)/100 for v in cells[1:7]])
     assets = {}
     for meta in datasets:
-        if meta['id'] in ('ihsg', 'spy'):
+        if meta['id'] == 'ihsg' or (meta['id'] == 'spy' and not include_benchmark):
             continue
         dates, p, _ = load_series(meta)
         last = {}
@@ -628,8 +628,8 @@ def factors(datasets):
                 protocol='Completed matched calendar months through August2026, never September before factor publication. Actual US RF subtracted; three-lag HAC standard errors. Current Kenneth French file revision, descriptive full-sample attribution. Alpha is not evidence of a tradable edge. Index price returns exclude dividends whereas US factors include them.')
 
 
-def portfolio_styles(datasets):
-    ids = ['tsm', 'nvda', 'avgo', 'mu', 'etn', 'vrt', 'alab', 'crdo']
+def portfolio_styles(datasets, ids=None, presets=None):
+    ids = ids or ['tsm', 'nvda', 'avgo', 'mu', 'etn', 'vrt', 'alab', 'crdo']
     lookup = {item['id']: item for item in datasets}
     series = {id: load_series(lookup[id]) for id in ids}
     common = sorted(set.intersection(*(set(value[0]) for value in series.values())))
@@ -640,7 +640,7 @@ def portfolio_styles(datasets):
     shrunk = .9*covariance+.1*np.diag(np.diag(covariance))
     sd = np.sqrt(np.diag(covariance))
     correlation = covariance/np.outer(sd, sd)
-    presets = {'aggressive': [20, 15, 15, 10, 15, 10, 7.5, 7.5],
+    presets = presets or {'aggressive': [20, 15, 15, 10, 15, 10, 7.5, 7.5],
                'infrastructure': [15, 10, 10, 5, 25, 20, 7.5, 7.5],
                'core': [25, 15, 20, 5, 20, 15, 0, 0]}
     styles = {}

@@ -1,12 +1,14 @@
 # Market Atlas
 
-An interactive English research dashboard for US and Indonesian markets, AI infrastructure, ten stock models, and 5/10-year investment scenarios.
+An interactive English research dashboard focused on NVDA 40%, TSM 25%, MU 20% and SPY 15%, with US and Indonesian index context.
 
 **Website:** https://ridwanns.github.io/market-atlas/
 
 ## Navigation
 
-Three primary destinations: Overview, AI Portfolio and Research. Research → Investment Decision opens actual fundamentals, editable valuation cases, AI thesis checks, IDR stress and model health. All ten companies are included: NVDA, TSM, INTC, AMD, MU, AVGO, ETN, VRT, ALAB and CRDO. Quant research also includes S&P 500, Nasdaq Composite and IHSG.
+Three primary destinations: Overview, Portfolio and Research. Four focused holdings are shown across watchlist, target allocation, budget and quant navigation. NVDA/TSM/MU have company financial evidence and editable valuation cases. SPY has its own adjusted-price quant models; no corporate EPS valuation is substituted for an ETF. S&P 500, Nasdaq Composite and IHSG remain available. Older ten-stock research is retained separately in the original archive.
+
+The 40/25/20/15 targets were selected by the user on 9 October 2026. They are not verified owned positions, optimized weights or buy recommendations. The focused covariance, variance contributions, costed historical replay and VaR/ES are recomputed for these four assets on the same September 30 model vintage. The original research bundle and prospective register are preserved; adding SPY models does not retroactively register eligible SPY forecasts.
 
 ## Data freshness
 

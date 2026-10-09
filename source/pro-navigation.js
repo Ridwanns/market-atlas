@@ -62,11 +62,11 @@ function navWorkspace(active){
  $('investment-decision').hidden=active!=='decision';
  $('advanced-details').hidden=active!=='research';
  [['nav-home','overview'],['nav-ai','ai'],['nav-explore','research']].forEach(([id,value])=>$(id).setAttribute('aria-pressed',String(active===value||(value==='research'&&['quant','decision'].includes(active)))));
- $('pro-portfolio-context').textContent=active==='decision'?'IDR → US · business evidence, valuation and risk':active==='ai'?'IDR → US · 5–10-year AI sleeve · '+(window.aiPortfolioStyleName||'Aggressive & Concentrated'):active==='quant'?'13 assets · refreshed quant research · 5 / 20 trading sessions':'IDR → US · 3–5-year plan + 5–10-year AI research';
+ $('pro-portfolio-context').textContent=active==='decision'?'IDR → US · business evidence, valuation and risk':active==='ai'?'IDR → US · 3 stocks + SPY · '+(window.aiPortfolioStyleName||'Aggressive & Concentrated'):active==='quant'?'4 holdings + 3 indices · quant research · 5 / 20 sessions':'Your targets · NVDA 40% · TSM 25% · MU 20% · SPY 15%';
 }
 function navCloseMap(){ $('nav-explorer').hidden=true;$('nav-explore').setAttribute('aria-expanded','false') }
 function navJump(destination){navDestination.value=destination;navOpenSection({preventDefault(){}})}
-$('nav-home').addEventListener('click',()=>navJump('overview'));
+$('nav-home').addEventListener('click',()=>{navTicker.value=$('simple-stock-select').value;navJump('overview')});
 $('nav-ai').addEventListener('click',()=>navJump('ai-portfolio'));
 $('nav-explore').addEventListener('click',()=>{const open=$('nav-explorer').hidden;$('nav-explorer').hidden=!open;$('nav-explore').setAttribute('aria-expanded',String(open))});
 $('nav-map-close').addEventListener('click',()=>{navCloseMap();$('nav-explore').focus()});

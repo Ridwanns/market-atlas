@@ -13,12 +13,12 @@
  stockButton.textContent='Investment Decision ↗';
  $('pro-open-models').parentElement.prepend(stockButton);
  stockButton.addEventListener('click',()=>decisionOpen($('simple-stock-select').value));
- function links(){stockButton.hidden=!D.assets[$('simple-stock-select').value];aiButton.textContent='Investment Decision · '+aiSelected.toUpperCase()+' ↗'}
+ function links(){stockButton.hidden=!D.assets[$('simple-stock-select').value];aiButton.hidden=!D.assets[aiSelected];aiButton.textContent='Investment Decision · '+aiSelected.toUpperCase()+' ↗'}
  const oldStock=compactStock;compactStock=function(){oldStock();links();decisionRefreshPrices()};
  const oldAI=aiRefreshPrices;aiRefreshPrices=function(){oldAI();links();decisionRefreshPrices()};
  const oldStyle=aiApplyStyle;aiApplyStyle=function(style){oldStyle(style);decisionRefreshStyle()};
  $('decision-ticker').addEventListener('change',navSynchronize);
- proCommands.push(...Object.keys(D.assets).map(id=>({title:id.toUpperCase()+' Investment Decision',detail:'5/10-year valuation, financial statements, bottlenecks and IDR risk',type:'Decision research',run:()=>decisionOpen(id)})));
+ proCommands.push(...Object.keys(D.assets).filter(id=>simpleInvestmentIds.includes(id)).map(id=>({title:id.toUpperCase()+' Investment Decision',detail:'5/10-year valuation, financial statements, bottlenecks and IDR risk',type:'Decision research',run:()=>decisionOpen(id)})));
  let monitoring=false,lastMonitor=0;
  async function refreshMonitor(){
   if(monitoring||Date.now()-lastMonitor<60000||$('investment-decision').hidden||$('decision-explore').value!=='model-health')return;

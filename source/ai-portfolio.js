@@ -8,13 +8,12 @@ const aiHoldings=[
  {id:'vrt',name:'Vertiv',weight:10,layer:'Electrical power & cooling',role:'Critical power systems, UPS and cooling, including liquid cooling for data centers.',thesis:'Higher rack densities require reliable power and heat removal. The July 2026 release describes growing sales and profitable operations.',risk:'Project timing, supply constraints, competition, order cancellations and a valuation that assumes sustained exceptional growth. Backlog is not guaranteed sales.',date:'29 July 2026',source:'https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm'},
  {id:'alab',name:'Astera Labs',weight:7.5,layer:'Higher-risk connectivity',role:'Signal conditioning and fabric connectivity within rack-scale AI infrastructure.',thesis:'Faster AI systems create connectivity and signal-integrity challenges. Its August release describes growth across AI fabrics and signal conditioning, with Scorpio production ramps.',risk:'Customer concentration, design losses, competing architectures, dilution and a high entry valuation. Product adoption does not guarantee long-term shareholder returns.',date:'4 August 2026',source:'https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results'},
  {id:'crdo',name:'Credo Technology',weight:7.5,layer:'Higher-risk connectivity',role:'High-speed copper and optical interconnect solutions for data infrastructure.',thesis:'Increasing bandwidth requirements create demand for reliable, energy-efficient connections. The September fiscal Q1 release supplies recent operating evidence.',risk:'Dependence on major customers, copper/optical architecture shifts, competition, deployment timing and valuation compression.',date:'1 September 2026',source:'https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Technology-Group-Holding-Ltd-Reports-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx'}
-];
-const aiProfiles={
- aggressive:{name:'Aggressive & Concentrated',weights:{tsm:20,nvda:15,avgo:15,mu:10,etn:15,vrt:10,alab:7.5,crdo:7.5},description:'Broad AI bottleneck exposure with 15% in the two higher-risk connectivity candidates. All eight are target holdings.'},
- infrastructure:{name:'Infrastructure Tilt',weights:{tsm:15,nvda:10,avgo:10,mu:5,etn:25,vrt:20,alab:7.5,crdo:7.5},description:'45% in Eaton and Vertiv, emphasizing electrical power and cooling. Still exposed to the AI investment cycle; it is not a defensive portfolio.'},
- core:{name:'Core Only',weights:{tsm:25,nvda:15,avgo:20,mu:5,etn:20,vrt:15,alab:0,crdo:0},description:'Six established suppliers. ALAB and CRDO stay on the watchlist with zero allocation. Greater concentration in the remaining names; no guaranteed reduction in losses.'}
-};
-let aiStyle='aggressive',aiSelected='tsm',aiFXSource='Manual assumption copied from the existing plan; broker FX spread, fees and taxes are excluded.';
+].filter(h=>['nvda','tsm','mu'].includes(h.id));
+aiHoldings.forEach(h=>h.weight=({nvda:40,tsm:25,mu:20})[h.id]);
+aiHoldings.push({id:'spy',name:'State Street SPDR S&P 500 ETF Trust',weight:15,layer:'Broad US equity ETF',role:'S&P 500 ETF exposure alongside the three direct stock positions.',thesis:'Broad large-cap US equity exposure adds businesses outside the three semiconductor stocks. Fund holdings may overlap with the direct positions; no current holdings look-through has been calculated.',risk:'US equity drawdowns, valuation compression, tracking differences and USD/IDR changes. This fund is not cash or a guaranteed drawdown hedge.',date:'Fund structure checked 9 October 2026',source:'https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy'});
+aiHoldings.sort((a,b)=>['nvda','tsm','mu','spy'].indexOf(a.id)-['nvda','tsm','mu','spy'].indexOf(b.id));
+const aiProfiles={focus:{name:'Your allocation',weights:{nvda:40,tsm:25,mu:20,spy:15},description:'NVDA 40% · TSM 25% · MU 20% · SPY 15%. User-selected equity targets, not verified owned holdings or optimized weights. 85% in three direct semiconductor stocks, before ETF overlap.'}};
+let aiStyle='focus',aiSelected='nvda',aiFXSource='Manual assumption copied from the existing plan; broker FX spread, fees and taxes are excluded.';
 function aiWeight(id){return aiProfiles[aiStyle].weights[id]||0}
 const aiLayerDescriptions={'Manufacturing & packaging':'Chip production and advanced packaging','Compute & custom silicon':'GPU platforms, custom chips and networking','Memory bandwidth':'Memory capacity and data throughput','Electrical power & cooling':'Power distribution and heat removal','Higher-risk connectivity':'Connections inside and between AI systems'};
 function aiInitialize(){
@@ -29,9 +28,9 @@ function aiInitialize(){
  $('ai-use-fx').addEventListener('click',()=>{const q=quoteMap['idr=x'];if(!q||q.error||!(q.latest_minute_bar?.price>0)){aiFXSource='A valid refreshing USD/IDR quote is unavailable. Enter your broker rate manually.';aiBudget();return}const bar=q.latest_minute_bar;$('ai-fx').value=bar.price;aiFXSource='Public feed FX applied · '+new Date(bar.time_utc).toLocaleString('en-GB',{timeZone:'Asia/Jakarta'})+' WIB · indicative, not your broker execution rate. Spreads, fees and taxes excluded.';aiBudget()});
  $('ai-model-open').addEventListener('click',()=>{if(!Q.assets[aiSelected])return;quantNavigate(aiSelected,'summary')});
  $('ai-style').addEventListener('change',()=>{const style=$('ai-style').value;aiApplyStyle(style);try{localStorage.setItem('market-atlas-ai-style',style)}catch(_){}});
- let savedStyle='aggressive';try{const saved=localStorage.getItem('market-atlas-ai-style');if(aiProfiles[saved])savedStyle=saved}catch(_){}
- aiSelect('tsm');aiApplyStyle(savedStyle);
- proCommands.push({title:'AI Portfolio',detail:'5–10-year bottleneck map and allocation',type:'Analysis',run:()=>navJump('ai-portfolio')},...aiHoldings.filter(h=>!simpleInvestmentIds.includes(h.id)).map(h=>({title:h.id.toUpperCase(),detail:h.name+' · '+h.layer,type:'AI research',run:()=>{aiSelect(h.id);navJump('ai-portfolio')}})));
+ let savedStyle='focus';try{const saved=localStorage.getItem('market-atlas-ai-style');if(aiProfiles[saved])savedStyle=saved}catch(_){}
+ aiSelect('nvda');aiApplyStyle(savedStyle);
+ proCommands.push({title:'AI Portfolio',detail:'Your four targets, budget and measured portfolio risk',type:'Analysis',run:()=>navJump('ai-portfolio')},...aiHoldings.filter(h=>!simpleInvestmentIds.includes(h.id)).map(h=>({title:h.id.toUpperCase(),detail:h.name+' · '+h.layer,type:'AI research',run:()=>{aiSelect(h.id);navJump('ai-portfolio')}})));
  proCommands.filter(command=>command.type==='Investment').forEach(command=>{const id=command.title.toLowerCase();command.run=()=>{$('simple-stock-select').value=id;simpleStock();navJump('overview')}});
 }
 function aiSelect(id){
@@ -52,19 +51,19 @@ function aiRefreshPrices(){
 }
 function aiBudget(){
  const raw=$('ai-budget').value,budget=Number(raw),fx=Number($('ai-fx').value),valid=raw!==''&&Number.isFinite(budget)&&budget>0&&Number.isFinite(fx)&&fx>0;
- $('ai-budget-message').textContent=valid?simpleMoney(budget)+' ≈ '+simpleMoney(budget/fx,'USD')+' for the AI sleeve. Target dollar amounts below; weights total 100%.':raw===''?'Enter an AI sleeve budget to see indicative USD amounts. The allocation bars show target weights.':'Enter a positive budget and FX rate.';
+ $('ai-budget-message').textContent=valid?simpleMoney(budget)+' ≈ '+simpleMoney(budget/fx,'USD')+' for the equity portfolio. Target dollar amounts below; weights total 100%.':raw===''?'Enter a portfolio budget to see indicative USD amounts. The allocation bars show target weights.':'Enter a positive budget and FX rate.';
  if(!$('ai-budget-chart').children.length)$('ai-budget-chart').innerHTML=aiHoldings.map(h=>'<div class="ai-allocation-row" data-ai-allocation="'+h.id+'"><strong>'+h.id.toUpperCase()+'</strong><div class="ai-allocation-track" aria-hidden="true"><div class="ai-allocation-fill" style="width:100%;transform:scaleX(0)"></div></div><span class="ai-allocation-percent"></span><span class="ai-allocation-value"></span></div>').join('');
  aiHoldings.forEach(h=>{const weight=aiWeight(h.id),row=document.querySelector('[data-ai-allocation="'+h.id+'"]');row.setAttribute('aria-label',h.id.toUpperCase()+': '+weight+' percent'+(valid?', USD '+num(budget/fx*weight/100,2):''));row.classList.toggle('ai-watch-only',weight===0);row.querySelector('.ai-allocation-fill').style.transform='scaleX('+weight/100+')';row.querySelector('.ai-allocation-percent').textContent=weight+'%';row.querySelector('.ai-allocation-value').textContent=valid?simpleMoney(budget/fx*weight/100,'USD'):'—'});
  $('ai-fx-note').textContent=aiFXSource;
 }
 function aiApplyStyle(style){
  if(!aiProfiles[style])return;aiStyle=style;$('ai-style').value=style;const profile=aiProfiles[style];window.aiPortfolioStyleName=profile.name;
- $('ai-style-subtitle').textContent='5–10 years · '+profile.name+' · illustrative AI sleeve';
+ $('ai-style-subtitle').textContent='NVDA 40% · TSM 25% · MU 20% · SPY 15%';
  $('ai-style-count').textContent=Object.values(profile.weights).filter(w=>w>0).length+' holdings · 100% target';
  $('ai-style-note').textContent=profile.description;
  document.querySelectorAll('.ai-layer').forEach(layer=>{let total=0;layer.querySelectorAll('[data-ai-company]').forEach(button=>{const id=button.dataset.aiCompany,h=aiHoldings.find(q=>q.id===id),weight=aiWeight(id);total+=weight;button.querySelector('span').textContent=weight?weight+'%':'Watchlist';button.classList.toggle('ai-watch-only',weight===0);button.setAttribute('aria-label',h.name+', '+weight+' percent, '+h.layer+(weight===0?', watchlist only':''))});layer.querySelector('.ai-layer-heading>span').textContent=total+'%'});
  aiSelect(aiSelected);aiBudget();
- if(!$('ai-portfolio').hidden)$('pro-portfolio-context').textContent='IDR → US · 5–10-year AI sleeve · '+profile.name;
+ if(!$('ai-portfolio').hidden)$('pro-portfolio-context').textContent='IDR → US · focused equity portfolio · '+profile.name;
 }
 aiInitialize();
 const aiOriginalStock=compactStock;compactStock=function(){aiOriginalStock();aiRefreshPrices()};

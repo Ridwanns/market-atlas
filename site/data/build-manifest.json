@@ -1,8 +1,15 @@
 {
-  "dashboard_sha256": "58ed77bf4bf8e3dc4155194297e8221fb0ee9893bc540b680739bfe268206ef5",
-  "dashboard_bytes": 77012205,
-  "compressed_bytes": 14719978,
-  "local_artifact_sha256": "9b00f8da10ea10588baeb6bc4dc23c0f76dbd2f840b8d6b261d8b182c89fce7f",
+  "dashboard_sha256": "9d3ad221cad51e71b0348074fc880e35ac4fa7fc2d2c6b1d943cce4fc44c9c16",
+  "dashboard_bytes": 63462800,
+  "compressed_bytes": 12160865,
+  "local_artifact_sha256": "dcc4629000755013113ce2c9bf038f7996dc15abd22affe73ef4cbc0e3757084",
   "quant_snapshot_sha256": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00",
+  "focus_weights": {
+    "nvda": 0.4,
+    "tsm": 0.25,
+    "mu": 0.2,
+    "spy": 0.15
+  },
+  "focused_quant_sha256": "88a935f9c381082901c854d004336cdde8914ce8348fe2626bf2a1c530a617c2",
   "mode": "Public GitHub Pages, scheduled snapshots, no broker or local-service dependency"
 }
