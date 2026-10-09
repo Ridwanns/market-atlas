@@ -8,6 +8,8 @@ An interactive English research dashboard focused on NVDA 40%, TSM 25%, MU 20% a
 
 Three primary destinations: Overview, Portfolio and Research. Four focused holdings are shown across watchlist, target allocation, budget and quant navigation. NVDA/TSM/MU have company financial evidence and editable valuation cases. SPY has its own adjusted-price quant models; no corporate EPS valuation is substituted for an ETF. S&P 500, Nasdaq Composite and IHSG remain available. Older ten-stock research is retained separately in the original archive.
 
+The existing model explorer includes animated retained-history and seeded-scenario playback with Play/Pause, Restart, scrubbing and speed selection. Each historical chart keeps its own dated range. Monte Carlo reveals retained paths/bands by session while the full-horizon histogram stays fixed. Factor coefficients use an explicitly labelled fixed-fit visual reveal. Playback does not refit models. Reduced-motion preferences disable automatic playback; leaving the panel or hiding the browser pauses it.
+
 The 40/25/20/15 targets were selected by the user on 9 October 2026. They are not verified owned positions, optimized weights or buy recommendations. The focused covariance, variance contributions, costed historical replay and VaR/ES are recomputed for these four assets on the same September 30 model vintage. The original research bundle and prospective register are preserved; adding SPY models does not retroactively register eligible SPY forecasts.
 
 ## Data freshness

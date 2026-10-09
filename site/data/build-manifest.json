@@ -1,8 +1,8 @@
 {
-  "dashboard_sha256": "9d3ad221cad51e71b0348074fc880e35ac4fa7fc2d2c6b1d943cce4fc44c9c16",
-  "dashboard_bytes": 63462800,
-  "compressed_bytes": 12160865,
-  "local_artifact_sha256": "dcc4629000755013113ce2c9bf038f7996dc15abd22affe73ef4cbc0e3757084",
+  "dashboard_sha256": "9adf5b3c47ec4aef1df1ca989700b549aade414b63cd3adbe0f04f539249cab6",
+  "dashboard_bytes": 63321276,
+  "compressed_bytes": 12143426,
+  "local_artifact_sha256": "89b42c1d13d33b6d8b2f67eb0a3ec24994d77a62d43a7780a9634f00368d3c86",
   "quant_snapshot_sha256": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00",
   "focus_weights": {
     "nvda": 0.4,

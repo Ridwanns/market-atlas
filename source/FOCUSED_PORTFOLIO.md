@@ -32,6 +32,24 @@ Package: `python publish_github_pages.py`, preserving newer remote snapshots.
 The original quant bundle and fundamentals stay frozen. Prices use the existing
 separately dated quote service and published weekday snapshot workflow.
 
+## Animated model explorer
+
+The existing quant panel now has Play/Pause, Restart, a scrubber and 0.5×/1×/2×
+speed controls. It plays once on opening; reduced-motion preferences show the
+complete charts without automatic playback. Leaving the panel or hiding the
+browser pauses playback. No additional tabs are introduced.
+
+Historical charts reveal retained dated observations within each chart's own
+range, including forecasts/errors, volatility, regime/beta, drawdown and timing.
+Monte Carlo reveals the same stored seeded paths and pointwise bands session by
+session; its histogram remains the explicitly labelled full-horizon distribution.
+Factor coefficients use a labelled visual reveal of a fixed fit. No estimates,
+fits, simulation seeds, risk statistics or data vintages change with playback.
+
+Animation QA covered all 56 asset/view combinations, both simulation methods for
+the four holdings, exact retained percentile readouts, play/pause, speed, restart,
+keyboard/slider inspection, 5/20-session horizons, path toggle and 390px layout.
+
 Verification: 30 Python checks passed, including independent alignment/covariance
 checks, retained arithmetic, quote regressions and ledger eligibility. Browser
 checks covered 56 quant asset/view combinations, budget weights and amounts,

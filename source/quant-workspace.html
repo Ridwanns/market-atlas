@@ -10,6 +10,15 @@
   <div id="quant-kpis" class="quant-kpis"></div>
   <p id="quant-quote-time" class="quant-caption quant-feed" aria-live="polite"></p>
   <p id="quant-warning" class="quant-warning" hidden></p>
+  <div class="quant-motion" aria-label="Model animation controls">
+    <button id="quant-play" type="button" aria-pressed="false">▶ Play</button>
+    <button id="quant-restart" type="button" aria-label="Restart model animation">↺</button>
+    <label class="sr-only" for="quant-progress">Animation position</label>
+    <input id="quant-progress" type="range" min="0" max="1000" value="1000" step="1">
+    <label class="quant-speed-label" for="quant-speed">Speed<select id="quant-speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label>
+    <output id="quant-motion-status" for="quant-progress" aria-live="off">Ready</output>
+  </div>
+  <p id="quant-motion-note" class="quant-caption quant-motion-note"></p>
   <div id="quant-content" class="quant-content"></div>
   <details class="quant-details"><summary>Exact results, model protocol &amp; data audit</summary><div id="quant-exact"></div></details>
 </section>

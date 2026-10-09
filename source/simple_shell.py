@@ -18,7 +18,7 @@ def simplify(template):
     quant=json.loads((ROOT/'results/2026-10-09/focused-portfolio.json').read_text(encoding='utf-8'))
     quant_data=json.dumps(quant,ensure_ascii=False,separators=(',',':'),allow_nan=False).replace('<','\\u003c').replace('&','\\u0026')
     decision_data=json.dumps(build_decision_data(),ensure_ascii=False,separators=(',',':'),allow_nan=False).replace('<','\\u003c').replace('&','\\u0026')
-    scripts='const Q='+quant_data+';\nconst D='+decision_data+';\n'+'\n'.join((ROOT/name).read_text(encoding='utf-8') for name in ['simple-ui.js','live-ui.js','pro-design.js','pro-navigation.js','model-visuals.js','ai-portfolio.js','quant-workspace.js','quant-integration.js','decision-math.js','investment-decision.js','decision-integration.js','focus-portfolio.js'])
+    scripts='const Q='+quant_data+';\nconst D='+decision_data+';\n'+'\n'.join((ROOT/name).read_text(encoding='utf-8') for name in ['simple-ui.js','live-ui.js','pro-design.js','pro-navigation.js','model-visuals.js','ai-portfolio.js','quant-motion.js','quant-workspace.js','quant-integration.js','decision-math.js','investment-decision.js','decision-integration.js','focus-portfolio.js'])
     template=template.replace('</script></body>',scripts+'\n</script></body>',1)
     template=template.replace('Built for the retained 29 September 2026 market snapshot · One offline English artifact · No automated trades or live-data claims.','Auto-refresh: 60 seconds · Public-feed delays may apply · Models & filings: 29 September 2026')
     template=template.replace('Auto-refresh: 60 seconds · Public-feed delays may apply · Models & filings: 29 September 2026','Quotes refresh every 60 seconds · Quant inputs through 30 September 2026 · Retained financials and options are separately dated')
