@@ -292,9 +292,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/nvda-3d24e71af6e19744.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05860699708229108,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 228.3800048828125,
+      "target_adjusted_close": 215.3800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "0e5e55efe9f0609bebe57820d3183941e855f93624f6f930fec51b86cb271821",
+        "raw_file": "data/forecast-monitor/nvda-0e5e55efe9f0609b.json",
+        "captured_utc": "2026-10-28T22:33:22.663033+00:00",
+        "raw_url": "data/provenance/nvda-0e5e55efe9f0609b.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nvda|20|ols|2026-09-30",
@@ -320,9 +330,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/nvda-3d24e71af6e19744.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05860699708229108,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 228.3800048828125,
+      "target_adjusted_close": 215.3800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "0e5e55efe9f0609bebe57820d3183941e855f93624f6f930fec51b86cb271821",
+        "raw_file": "data/forecast-monitor/nvda-0e5e55efe9f0609b.json",
+        "captured_utc": "2026-10-28T22:33:22.663033+00:00",
+        "raw_url": "data/provenance/nvda-0e5e55efe9f0609b.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nvda|20|knn50|2026-09-30",
@@ -348,9 +368,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/nvda-3d24e71af6e19744.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05860699708229108,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 228.3800048828125,
+      "target_adjusted_close": 215.3800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "0e5e55efe9f0609bebe57820d3183941e855f93624f6f930fec51b86cb271821",
+        "raw_file": "data/forecast-monitor/nvda-0e5e55efe9f0609b.json",
+        "captured_utc": "2026-10-28T22:33:22.663033+00:00",
+        "raw_url": "data/provenance/nvda-0e5e55efe9f0609b.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nvda|20|mean|2026-09-30",
@@ -376,9 +406,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/nvda-3d24e71af6e19744.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05860699708229108,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 228.3800048828125,
+      "target_adjusted_close": 215.3800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "0e5e55efe9f0609bebe57820d3183941e855f93624f6f930fec51b86cb271821",
+        "raw_file": "data/forecast-monitor/nvda-0e5e55efe9f0609b.json",
+        "captured_utc": "2026-10-28T22:33:22.663033+00:00",
+        "raw_url": "data/provenance/nvda-0e5e55efe9f0609b.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nvda|20|zero|2026-09-30",
@@ -404,9 +444,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/nvda-3d24e71af6e19744.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05860699708229108,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 228.3800048828125,
+      "target_adjusted_close": 215.3800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "0e5e55efe9f0609bebe57820d3183941e855f93624f6f930fec51b86cb271821",
+        "raw_file": "data/forecast-monitor/nvda-0e5e55efe9f0609b.json",
+        "captured_utc": "2026-10-28T22:33:22.663033+00:00",
+        "raw_url": "data/provenance/nvda-0e5e55efe9f0609b.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nvda|20|gbm|2026-09-30",
@@ -432,9 +482,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/nvda-3d24e71af6e19744.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05860699708229108,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 228.3800048828125,
+      "target_adjusted_close": 215.3800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "0e5e55efe9f0609bebe57820d3183941e855f93624f6f930fec51b86cb271821",
+        "raw_file": "data/forecast-monitor/nvda-0e5e55efe9f0609b.json",
+        "captured_utc": "2026-10-28T22:33:22.663033+00:00",
+        "raw_url": "data/provenance/nvda-0e5e55efe9f0609b.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nvda|20|ar1|2026-09-30",
@@ -460,9 +520,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/nvda-3d24e71af6e19744.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05860699708229108,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 228.3800048828125,
+      "target_adjusted_close": 215.3800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "0e5e55efe9f0609bebe57820d3183941e855f93624f6f930fec51b86cb271821",
+        "raw_file": "data/forecast-monitor/nvda-0e5e55efe9f0609b.json",
+        "captured_utc": "2026-10-28T22:33:22.663033+00:00",
+        "raw_url": "data/provenance/nvda-0e5e55efe9f0609b.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|tsm|5|ridge|2026-09-30",
@@ -754,9 +824,19 @@
         "captured_utc": "2026-10-01T10:39:09.581122+00:00",
         "raw_url": "data/provenance/tsm-2ba4e7c38a1a4141.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.03724890253704884,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 456.19000244140625,
+      "target_adjusted_close": 439.510009765625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "51b9da208d8fd4feab8e5a80cad8e70f31c3bc781fda31e81c5f8eb1270b5d52",
+        "raw_file": "data/forecast-monitor/tsm-51b9da208d8fd4fe.json",
+        "captured_utc": "2026-10-28T22:33:22.662029+00:00",
+        "raw_url": "data/provenance/tsm-51b9da208d8fd4fe.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|tsm|20|ols|2026-09-30",
@@ -782,9 +862,19 @@
         "captured_utc": "2026-10-01T10:39:09.581122+00:00",
         "raw_url": "data/provenance/tsm-2ba4e7c38a1a4141.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.03724890253704884,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 456.19000244140625,
+      "target_adjusted_close": 439.510009765625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "51b9da208d8fd4feab8e5a80cad8e70f31c3bc781fda31e81c5f8eb1270b5d52",
+        "raw_file": "data/forecast-monitor/tsm-51b9da208d8fd4fe.json",
+        "captured_utc": "2026-10-28T22:33:22.662029+00:00",
+        "raw_url": "data/provenance/tsm-51b9da208d8fd4fe.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|tsm|20|knn50|2026-09-30",
@@ -810,9 +900,19 @@
         "captured_utc": "2026-10-01T10:39:09.581122+00:00",
         "raw_url": "data/provenance/tsm-2ba4e7c38a1a4141.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.03724890253704884,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 456.19000244140625,
+      "target_adjusted_close": 439.510009765625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "51b9da208d8fd4feab8e5a80cad8e70f31c3bc781fda31e81c5f8eb1270b5d52",
+        "raw_file": "data/forecast-monitor/tsm-51b9da208d8fd4fe.json",
+        "captured_utc": "2026-10-28T22:33:22.662029+00:00",
+        "raw_url": "data/provenance/tsm-51b9da208d8fd4fe.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|tsm|20|mean|2026-09-30",
@@ -838,9 +938,19 @@
         "captured_utc": "2026-10-01T10:39:09.581122+00:00",
         "raw_url": "data/provenance/tsm-2ba4e7c38a1a4141.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.03724890253704884,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 456.19000244140625,
+      "target_adjusted_close": 439.510009765625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "51b9da208d8fd4feab8e5a80cad8e70f31c3bc781fda31e81c5f8eb1270b5d52",
+        "raw_file": "data/forecast-monitor/tsm-51b9da208d8fd4fe.json",
+        "captured_utc": "2026-10-28T22:33:22.662029+00:00",
+        "raw_url": "data/provenance/tsm-51b9da208d8fd4fe.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|tsm|20|zero|2026-09-30",
@@ -866,9 +976,19 @@
         "captured_utc": "2026-10-01T10:39:09.581122+00:00",
         "raw_url": "data/provenance/tsm-2ba4e7c38a1a4141.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.03724890253704884,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 456.19000244140625,
+      "target_adjusted_close": 439.510009765625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "51b9da208d8fd4feab8e5a80cad8e70f31c3bc781fda31e81c5f8eb1270b5d52",
+        "raw_file": "data/forecast-monitor/tsm-51b9da208d8fd4fe.json",
+        "captured_utc": "2026-10-28T22:33:22.662029+00:00",
+        "raw_url": "data/provenance/tsm-51b9da208d8fd4fe.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|tsm|20|gbm|2026-09-30",
@@ -894,9 +1014,19 @@
         "captured_utc": "2026-10-01T10:39:09.581122+00:00",
         "raw_url": "data/provenance/tsm-2ba4e7c38a1a4141.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.03724890253704884,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 456.19000244140625,
+      "target_adjusted_close": 439.510009765625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "51b9da208d8fd4feab8e5a80cad8e70f31c3bc781fda31e81c5f8eb1270b5d52",
+        "raw_file": "data/forecast-monitor/tsm-51b9da208d8fd4fe.json",
+        "captured_utc": "2026-10-28T22:33:22.662029+00:00",
+        "raw_url": "data/provenance/tsm-51b9da208d8fd4fe.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|tsm|20|ar1|2026-09-30",
@@ -922,9 +1052,19 @@
         "captured_utc": "2026-10-01T10:39:09.581122+00:00",
         "raw_url": "data/provenance/tsm-2ba4e7c38a1a4141.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.03724890253704884,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 456.19000244140625,
+      "target_adjusted_close": 439.510009765625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "51b9da208d8fd4feab8e5a80cad8e70f31c3bc781fda31e81c5f8eb1270b5d52",
+        "raw_file": "data/forecast-monitor/tsm-51b9da208d8fd4fe.json",
+        "captured_utc": "2026-10-28T22:33:22.662029+00:00",
+        "raw_url": "data/provenance/tsm-51b9da208d8fd4fe.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|intc|5|ridge|2026-09-30",
@@ -1216,9 +1356,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/intc-a89a8069d593db15.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.22996628140404954,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 120.2300033569336,
+      "target_adjusted_close": 95.52999877929688,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "18fd1c975d15dab50b8e4f359e758649968da73402a4eee3f3bf6636275b5abd",
+        "raw_file": "data/forecast-monitor/intc-18fd1c975d15dab5.json",
+        "captured_utc": "2026-10-28T22:33:22.666019+00:00",
+        "raw_url": "data/provenance/intc-18fd1c975d15dab5.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|intc|20|ols|2026-09-30",
@@ -1244,9 +1394,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/intc-a89a8069d593db15.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.22996628140404954,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 120.2300033569336,
+      "target_adjusted_close": 95.52999877929688,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "18fd1c975d15dab50b8e4f359e758649968da73402a4eee3f3bf6636275b5abd",
+        "raw_file": "data/forecast-monitor/intc-18fd1c975d15dab5.json",
+        "captured_utc": "2026-10-28T22:33:22.666019+00:00",
+        "raw_url": "data/provenance/intc-18fd1c975d15dab5.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|intc|20|knn50|2026-09-30",
@@ -1272,9 +1432,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/intc-a89a8069d593db15.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.22996628140404954,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 120.2300033569336,
+      "target_adjusted_close": 95.52999877929688,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "18fd1c975d15dab50b8e4f359e758649968da73402a4eee3f3bf6636275b5abd",
+        "raw_file": "data/forecast-monitor/intc-18fd1c975d15dab5.json",
+        "captured_utc": "2026-10-28T22:33:22.666019+00:00",
+        "raw_url": "data/provenance/intc-18fd1c975d15dab5.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|intc|20|mean|2026-09-30",
@@ -1300,9 +1470,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/intc-a89a8069d593db15.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.22996628140404954,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 120.2300033569336,
+      "target_adjusted_close": 95.52999877929688,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "18fd1c975d15dab50b8e4f359e758649968da73402a4eee3f3bf6636275b5abd",
+        "raw_file": "data/forecast-monitor/intc-18fd1c975d15dab5.json",
+        "captured_utc": "2026-10-28T22:33:22.666019+00:00",
+        "raw_url": "data/provenance/intc-18fd1c975d15dab5.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|intc|20|zero|2026-09-30",
@@ -1328,9 +1508,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/intc-a89a8069d593db15.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.22996628140404954,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 120.2300033569336,
+      "target_adjusted_close": 95.52999877929688,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "18fd1c975d15dab50b8e4f359e758649968da73402a4eee3f3bf6636275b5abd",
+        "raw_file": "data/forecast-monitor/intc-18fd1c975d15dab5.json",
+        "captured_utc": "2026-10-28T22:33:22.666019+00:00",
+        "raw_url": "data/provenance/intc-18fd1c975d15dab5.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|intc|20|gbm|2026-09-30",
@@ -1356,9 +1546,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/intc-a89a8069d593db15.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.22996628140404954,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 120.2300033569336,
+      "target_adjusted_close": 95.52999877929688,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "18fd1c975d15dab50b8e4f359e758649968da73402a4eee3f3bf6636275b5abd",
+        "raw_file": "data/forecast-monitor/intc-18fd1c975d15dab5.json",
+        "captured_utc": "2026-10-28T22:33:22.666019+00:00",
+        "raw_url": "data/provenance/intc-18fd1c975d15dab5.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|intc|20|ar1|2026-09-30",
@@ -1384,9 +1584,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/intc-a89a8069d593db15.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.22996628140404954,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 120.2300033569336,
+      "target_adjusted_close": 95.52999877929688,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "18fd1c975d15dab50b8e4f359e758649968da73402a4eee3f3bf6636275b5abd",
+        "raw_file": "data/forecast-monitor/intc-18fd1c975d15dab5.json",
+        "captured_utc": "2026-10-28T22:33:22.666019+00:00",
+        "raw_url": "data/provenance/intc-18fd1c975d15dab5.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|amd|5|ridge|2026-09-30",
@@ -1678,9 +1888,19 @@
         "captured_utc": "2026-10-01T10:39:09.555122+00:00",
         "raw_url": "data/provenance/amd-da19c1302be65de0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05600523573186854,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 611.760009765625,
+      "target_adjusted_close": 578.4400024414062,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "03f8f770b8173530af1be0ca696e5f6b661e8a0e45862c22b65d53caa7785eb7",
+        "raw_file": "data/forecast-monitor/amd-03f8f770b8173530.json",
+        "captured_utc": "2026-10-28T22:33:22.652888+00:00",
+        "raw_url": "data/provenance/amd-03f8f770b8173530.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|amd|20|ols|2026-09-30",
@@ -1706,9 +1926,19 @@
         "captured_utc": "2026-10-01T10:39:09.555122+00:00",
         "raw_url": "data/provenance/amd-da19c1302be65de0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05600523573186854,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 611.760009765625,
+      "target_adjusted_close": 578.4400024414062,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "03f8f770b8173530af1be0ca696e5f6b661e8a0e45862c22b65d53caa7785eb7",
+        "raw_file": "data/forecast-monitor/amd-03f8f770b8173530.json",
+        "captured_utc": "2026-10-28T22:33:22.652888+00:00",
+        "raw_url": "data/provenance/amd-03f8f770b8173530.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|amd|20|knn50|2026-09-30",
@@ -1734,9 +1964,19 @@
         "captured_utc": "2026-10-01T10:39:09.555122+00:00",
         "raw_url": "data/provenance/amd-da19c1302be65de0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05600523573186854,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 611.760009765625,
+      "target_adjusted_close": 578.4400024414062,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "03f8f770b8173530af1be0ca696e5f6b661e8a0e45862c22b65d53caa7785eb7",
+        "raw_file": "data/forecast-monitor/amd-03f8f770b8173530.json",
+        "captured_utc": "2026-10-28T22:33:22.652888+00:00",
+        "raw_url": "data/provenance/amd-03f8f770b8173530.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|amd|20|mean|2026-09-30",
@@ -1762,9 +2002,19 @@
         "captured_utc": "2026-10-01T10:39:09.555122+00:00",
         "raw_url": "data/provenance/amd-da19c1302be65de0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05600523573186854,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 611.760009765625,
+      "target_adjusted_close": 578.4400024414062,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "03f8f770b8173530af1be0ca696e5f6b661e8a0e45862c22b65d53caa7785eb7",
+        "raw_file": "data/forecast-monitor/amd-03f8f770b8173530.json",
+        "captured_utc": "2026-10-28T22:33:22.652888+00:00",
+        "raw_url": "data/provenance/amd-03f8f770b8173530.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|amd|20|zero|2026-09-30",
@@ -1790,9 +2040,19 @@
         "captured_utc": "2026-10-01T10:39:09.555122+00:00",
         "raw_url": "data/provenance/amd-da19c1302be65de0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05600523573186854,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 611.760009765625,
+      "target_adjusted_close": 578.4400024414062,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "03f8f770b8173530af1be0ca696e5f6b661e8a0e45862c22b65d53caa7785eb7",
+        "raw_file": "data/forecast-monitor/amd-03f8f770b8173530.json",
+        "captured_utc": "2026-10-28T22:33:22.652888+00:00",
+        "raw_url": "data/provenance/amd-03f8f770b8173530.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|amd|20|gbm|2026-09-30",
@@ -1818,9 +2078,19 @@
         "captured_utc": "2026-10-01T10:39:09.555122+00:00",
         "raw_url": "data/provenance/amd-da19c1302be65de0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05600523573186854,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 611.760009765625,
+      "target_adjusted_close": 578.4400024414062,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "03f8f770b8173530af1be0ca696e5f6b661e8a0e45862c22b65d53caa7785eb7",
+        "raw_file": "data/forecast-monitor/amd-03f8f770b8173530.json",
+        "captured_utc": "2026-10-28T22:33:22.652888+00:00",
+        "raw_url": "data/provenance/amd-03f8f770b8173530.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|amd|20|ar1|2026-09-30",
@@ -1846,9 +2116,19 @@
         "captured_utc": "2026-10-01T10:39:09.555122+00:00",
         "raw_url": "data/provenance/amd-da19c1302be65de0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.05600523573186854,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 611.760009765625,
+      "target_adjusted_close": 578.4400024414062,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "03f8f770b8173530af1be0ca696e5f6b661e8a0e45862c22b65d53caa7785eb7",
+        "raw_file": "data/forecast-monitor/amd-03f8f770b8173530.json",
+        "captured_utc": "2026-10-28T22:33:22.652888+00:00",
+        "raw_url": "data/provenance/amd-03f8f770b8173530.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|mu|5|ridge|2026-09-30",
@@ -2140,9 +2420,19 @@
         "captured_utc": "2026-10-01T10:39:09.595122+00:00",
         "raw_url": "data/provenance/mu-e804c980cca037d9.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.07983292550066433,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 1064.9423828125,
+      "target_adjusted_close": 983.22998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "29c2c8c29947309091ef6327a8353565a010599c9f27270aa2ec2869f824c1ba",
+        "raw_file": "data/forecast-monitor/mu-29c2c8c299473090.json",
+        "captured_utc": "2026-10-28T22:33:22.667114+00:00",
+        "raw_url": "data/provenance/mu-29c2c8c299473090.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|mu|20|ols|2026-09-30",
@@ -2168,9 +2458,19 @@
         "captured_utc": "2026-10-01T10:39:09.595122+00:00",
         "raw_url": "data/provenance/mu-e804c980cca037d9.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.07983292550066433,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 1064.9423828125,
+      "target_adjusted_close": 983.22998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "29c2c8c29947309091ef6327a8353565a010599c9f27270aa2ec2869f824c1ba",
+        "raw_file": "data/forecast-monitor/mu-29c2c8c299473090.json",
+        "captured_utc": "2026-10-28T22:33:22.667114+00:00",
+        "raw_url": "data/provenance/mu-29c2c8c299473090.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|mu|20|knn50|2026-09-30",
@@ -2196,9 +2496,19 @@
         "captured_utc": "2026-10-01T10:39:09.595122+00:00",
         "raw_url": "data/provenance/mu-e804c980cca037d9.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.07983292550066433,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 1064.9423828125,
+      "target_adjusted_close": 983.22998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "29c2c8c29947309091ef6327a8353565a010599c9f27270aa2ec2869f824c1ba",
+        "raw_file": "data/forecast-monitor/mu-29c2c8c299473090.json",
+        "captured_utc": "2026-10-28T22:33:22.667114+00:00",
+        "raw_url": "data/provenance/mu-29c2c8c299473090.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|mu|20|mean|2026-09-30",
@@ -2224,9 +2534,19 @@
         "captured_utc": "2026-10-01T10:39:09.595122+00:00",
         "raw_url": "data/provenance/mu-e804c980cca037d9.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.07983292550066433,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 1064.9423828125,
+      "target_adjusted_close": 983.22998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "29c2c8c29947309091ef6327a8353565a010599c9f27270aa2ec2869f824c1ba",
+        "raw_file": "data/forecast-monitor/mu-29c2c8c299473090.json",
+        "captured_utc": "2026-10-28T22:33:22.667114+00:00",
+        "raw_url": "data/provenance/mu-29c2c8c299473090.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|mu|20|zero|2026-09-30",
@@ -2252,9 +2572,19 @@
         "captured_utc": "2026-10-01T10:39:09.595122+00:00",
         "raw_url": "data/provenance/mu-e804c980cca037d9.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.07983292550066433,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 1064.9423828125,
+      "target_adjusted_close": 983.22998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "29c2c8c29947309091ef6327a8353565a010599c9f27270aa2ec2869f824c1ba",
+        "raw_file": "data/forecast-monitor/mu-29c2c8c299473090.json",
+        "captured_utc": "2026-10-28T22:33:22.667114+00:00",
+        "raw_url": "data/provenance/mu-29c2c8c299473090.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|mu|20|gbm|2026-09-30",
@@ -2280,9 +2610,19 @@
         "captured_utc": "2026-10-01T10:39:09.595122+00:00",
         "raw_url": "data/provenance/mu-e804c980cca037d9.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.07983292550066433,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 1064.9423828125,
+      "target_adjusted_close": 983.22998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "29c2c8c29947309091ef6327a8353565a010599c9f27270aa2ec2869f824c1ba",
+        "raw_file": "data/forecast-monitor/mu-29c2c8c299473090.json",
+        "captured_utc": "2026-10-28T22:33:22.667114+00:00",
+        "raw_url": "data/provenance/mu-29c2c8c299473090.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|mu|20|ar1|2026-09-30",
@@ -2308,9 +2648,19 @@
         "captured_utc": "2026-10-01T10:39:09.595122+00:00",
         "raw_url": "data/provenance/mu-e804c980cca037d9.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.07983292550066433,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 1064.9423828125,
+      "target_adjusted_close": 983.22998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "29c2c8c29947309091ef6327a8353565a010599c9f27270aa2ec2869f824c1ba",
+        "raw_file": "data/forecast-monitor/mu-29c2c8c299473090.json",
+        "captured_utc": "2026-10-28T22:33:22.667114+00:00",
+        "raw_url": "data/provenance/mu-29c2c8c299473090.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|avgo|5|ridge|2026-09-30",
@@ -2602,9 +2952,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/avgo-0b2226a493e85f5f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0017638556982386415,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 351.19000244140625,
+      "target_adjusted_close": 351.80999755859375,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "b8f4fefa8cfeb5ae797ee0f323c3716fe36e4774bcf57ed33e760e8f140ec8a8",
+        "raw_file": "data/forecast-monitor/avgo-b8f4fefa8cfeb5ae.json",
+        "captured_utc": "2026-10-28T22:33:22.662618+00:00",
+        "raw_url": "data/provenance/avgo-b8f4fefa8cfeb5ae.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|avgo|20|ols|2026-09-30",
@@ -2630,9 +2990,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/avgo-0b2226a493e85f5f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0017638556982386415,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 351.19000244140625,
+      "target_adjusted_close": 351.80999755859375,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "b8f4fefa8cfeb5ae797ee0f323c3716fe36e4774bcf57ed33e760e8f140ec8a8",
+        "raw_file": "data/forecast-monitor/avgo-b8f4fefa8cfeb5ae.json",
+        "captured_utc": "2026-10-28T22:33:22.662618+00:00",
+        "raw_url": "data/provenance/avgo-b8f4fefa8cfeb5ae.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|avgo|20|knn50|2026-09-30",
@@ -2658,9 +3028,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/avgo-0b2226a493e85f5f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0017638556982386415,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 351.19000244140625,
+      "target_adjusted_close": 351.80999755859375,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "b8f4fefa8cfeb5ae797ee0f323c3716fe36e4774bcf57ed33e760e8f140ec8a8",
+        "raw_file": "data/forecast-monitor/avgo-b8f4fefa8cfeb5ae.json",
+        "captured_utc": "2026-10-28T22:33:22.662618+00:00",
+        "raw_url": "data/provenance/avgo-b8f4fefa8cfeb5ae.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|avgo|20|mean|2026-09-30",
@@ -2686,9 +3066,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/avgo-0b2226a493e85f5f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0017638556982386415,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 351.19000244140625,
+      "target_adjusted_close": 351.80999755859375,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "b8f4fefa8cfeb5ae797ee0f323c3716fe36e4774bcf57ed33e760e8f140ec8a8",
+        "raw_file": "data/forecast-monitor/avgo-b8f4fefa8cfeb5ae.json",
+        "captured_utc": "2026-10-28T22:33:22.662618+00:00",
+        "raw_url": "data/provenance/avgo-b8f4fefa8cfeb5ae.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|avgo|20|zero|2026-09-30",
@@ -2714,9 +3104,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/avgo-0b2226a493e85f5f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0017638556982386415,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 351.19000244140625,
+      "target_adjusted_close": 351.80999755859375,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "b8f4fefa8cfeb5ae797ee0f323c3716fe36e4774bcf57ed33e760e8f140ec8a8",
+        "raw_file": "data/forecast-monitor/avgo-b8f4fefa8cfeb5ae.json",
+        "captured_utc": "2026-10-28T22:33:22.662618+00:00",
+        "raw_url": "data/provenance/avgo-b8f4fefa8cfeb5ae.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|avgo|20|gbm|2026-09-30",
@@ -2742,9 +3142,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/avgo-0b2226a493e85f5f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0017638556982386415,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 351.19000244140625,
+      "target_adjusted_close": 351.80999755859375,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "b8f4fefa8cfeb5ae797ee0f323c3716fe36e4774bcf57ed33e760e8f140ec8a8",
+        "raw_file": "data/forecast-monitor/avgo-b8f4fefa8cfeb5ae.json",
+        "captured_utc": "2026-10-28T22:33:22.662618+00:00",
+        "raw_url": "data/provenance/avgo-b8f4fefa8cfeb5ae.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|avgo|20|ar1|2026-09-30",
@@ -2770,9 +3180,19 @@
         "captured_utc": "2026-10-01T10:39:09.592123+00:00",
         "raw_url": "data/provenance/avgo-0b2226a493e85f5f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0017638556982386415,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 351.19000244140625,
+      "target_adjusted_close": 351.80999755859375,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "b8f4fefa8cfeb5ae797ee0f323c3716fe36e4774bcf57ed33e760e8f140ec8a8",
+        "raw_file": "data/forecast-monitor/avgo-b8f4fefa8cfeb5ae.json",
+        "captured_utc": "2026-10-28T22:33:22.662618+00:00",
+        "raw_url": "data/provenance/avgo-b8f4fefa8cfeb5ae.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|etn|5|ridge|2026-09-30",
@@ -3064,9 +3484,19 @@
         "captured_utc": "2026-10-01T10:39:09.888901+00:00",
         "raw_url": "data/provenance/etn-5c27e799fd34a093.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.08960630851586124,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 429.7099914550781,
+      "target_adjusted_close": 392.8800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d2077df61dc37d1a837965bd44fc4cfa1c0884a198d9cd9bb5d4a3f75f273be7",
+        "raw_file": "data/forecast-monitor/etn-d2077df61dc37d1a.json",
+        "captured_utc": "2026-10-28T22:33:22.742009+00:00",
+        "raw_url": "data/provenance/etn-d2077df61dc37d1a.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|etn|20|ols|2026-09-30",
@@ -3092,9 +3522,19 @@
         "captured_utc": "2026-10-01T10:39:09.888901+00:00",
         "raw_url": "data/provenance/etn-5c27e799fd34a093.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.08960630851586124,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 429.7099914550781,
+      "target_adjusted_close": 392.8800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d2077df61dc37d1a837965bd44fc4cfa1c0884a198d9cd9bb5d4a3f75f273be7",
+        "raw_file": "data/forecast-monitor/etn-d2077df61dc37d1a.json",
+        "captured_utc": "2026-10-28T22:33:22.742009+00:00",
+        "raw_url": "data/provenance/etn-d2077df61dc37d1a.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|etn|20|knn50|2026-09-30",
@@ -3120,9 +3560,19 @@
         "captured_utc": "2026-10-01T10:39:09.888901+00:00",
         "raw_url": "data/provenance/etn-5c27e799fd34a093.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.08960630851586124,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 429.7099914550781,
+      "target_adjusted_close": 392.8800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d2077df61dc37d1a837965bd44fc4cfa1c0884a198d9cd9bb5d4a3f75f273be7",
+        "raw_file": "data/forecast-monitor/etn-d2077df61dc37d1a.json",
+        "captured_utc": "2026-10-28T22:33:22.742009+00:00",
+        "raw_url": "data/provenance/etn-d2077df61dc37d1a.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|etn|20|mean|2026-09-30",
@@ -3148,9 +3598,19 @@
         "captured_utc": "2026-10-01T10:39:09.888901+00:00",
         "raw_url": "data/provenance/etn-5c27e799fd34a093.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.08960630851586124,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 429.7099914550781,
+      "target_adjusted_close": 392.8800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d2077df61dc37d1a837965bd44fc4cfa1c0884a198d9cd9bb5d4a3f75f273be7",
+        "raw_file": "data/forecast-monitor/etn-d2077df61dc37d1a.json",
+        "captured_utc": "2026-10-28T22:33:22.742009+00:00",
+        "raw_url": "data/provenance/etn-d2077df61dc37d1a.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|etn|20|zero|2026-09-30",
@@ -3176,9 +3636,19 @@
         "captured_utc": "2026-10-01T10:39:09.888901+00:00",
         "raw_url": "data/provenance/etn-5c27e799fd34a093.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.08960630851586124,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 429.7099914550781,
+      "target_adjusted_close": 392.8800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d2077df61dc37d1a837965bd44fc4cfa1c0884a198d9cd9bb5d4a3f75f273be7",
+        "raw_file": "data/forecast-monitor/etn-d2077df61dc37d1a.json",
+        "captured_utc": "2026-10-28T22:33:22.742009+00:00",
+        "raw_url": "data/provenance/etn-d2077df61dc37d1a.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|etn|20|gbm|2026-09-30",
@@ -3204,9 +3674,19 @@
         "captured_utc": "2026-10-01T10:39:09.888901+00:00",
         "raw_url": "data/provenance/etn-5c27e799fd34a093.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.08960630851586124,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 429.7099914550781,
+      "target_adjusted_close": 392.8800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d2077df61dc37d1a837965bd44fc4cfa1c0884a198d9cd9bb5d4a3f75f273be7",
+        "raw_file": "data/forecast-monitor/etn-d2077df61dc37d1a.json",
+        "captured_utc": "2026-10-28T22:33:22.742009+00:00",
+        "raw_url": "data/provenance/etn-d2077df61dc37d1a.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|etn|20|ar1|2026-09-30",
@@ -3232,9 +3712,19 @@
         "captured_utc": "2026-10-01T10:39:09.888901+00:00",
         "raw_url": "data/provenance/etn-5c27e799fd34a093.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.08960630851586124,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 429.7099914550781,
+      "target_adjusted_close": 392.8800048828125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ETN?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d2077df61dc37d1a837965bd44fc4cfa1c0884a198d9cd9bb5d4a3f75f273be7",
+        "raw_file": "data/forecast-monitor/etn-d2077df61dc37d1a.json",
+        "captured_utc": "2026-10-28T22:33:22.742009+00:00",
+        "raw_url": "data/provenance/etn-d2077df61dc37d1a.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|vrt|5|ridge|2026-09-30",
@@ -3526,9 +4016,19 @@
         "captured_utc": "2026-10-01T10:39:09.847049+00:00",
         "raw_url": "data/provenance/vrt-93d9778f81e6dceb.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0067321054784180035,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 241.30999755859375,
+      "target_adjusted_close": 242.94000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "55acdb7a5a8ccad6626edaeef04dfb6c1c36a4be9072077025f8dfa64d7e3f6d",
+        "raw_file": "data/forecast-monitor/vrt-55acdb7a5a8ccad6.json",
+        "captured_utc": "2026-10-28T22:33:22.712176+00:00",
+        "raw_url": "data/provenance/vrt-55acdb7a5a8ccad6.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|vrt|20|ols|2026-09-30",
@@ -3554,9 +4054,19 @@
         "captured_utc": "2026-10-01T10:39:09.847049+00:00",
         "raw_url": "data/provenance/vrt-93d9778f81e6dceb.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0067321054784180035,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 241.30999755859375,
+      "target_adjusted_close": 242.94000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "55acdb7a5a8ccad6626edaeef04dfb6c1c36a4be9072077025f8dfa64d7e3f6d",
+        "raw_file": "data/forecast-monitor/vrt-55acdb7a5a8ccad6.json",
+        "captured_utc": "2026-10-28T22:33:22.712176+00:00",
+        "raw_url": "data/provenance/vrt-55acdb7a5a8ccad6.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|vrt|20|knn50|2026-09-30",
@@ -3582,9 +4092,19 @@
         "captured_utc": "2026-10-01T10:39:09.847049+00:00",
         "raw_url": "data/provenance/vrt-93d9778f81e6dceb.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0067321054784180035,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 241.30999755859375,
+      "target_adjusted_close": 242.94000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "55acdb7a5a8ccad6626edaeef04dfb6c1c36a4be9072077025f8dfa64d7e3f6d",
+        "raw_file": "data/forecast-monitor/vrt-55acdb7a5a8ccad6.json",
+        "captured_utc": "2026-10-28T22:33:22.712176+00:00",
+        "raw_url": "data/provenance/vrt-55acdb7a5a8ccad6.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|vrt|20|mean|2026-09-30",
@@ -3610,9 +4130,19 @@
         "captured_utc": "2026-10-01T10:39:09.847049+00:00",
         "raw_url": "data/provenance/vrt-93d9778f81e6dceb.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0067321054784180035,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 241.30999755859375,
+      "target_adjusted_close": 242.94000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "55acdb7a5a8ccad6626edaeef04dfb6c1c36a4be9072077025f8dfa64d7e3f6d",
+        "raw_file": "data/forecast-monitor/vrt-55acdb7a5a8ccad6.json",
+        "captured_utc": "2026-10-28T22:33:22.712176+00:00",
+        "raw_url": "data/provenance/vrt-55acdb7a5a8ccad6.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|vrt|20|zero|2026-09-30",
@@ -3638,9 +4168,19 @@
         "captured_utc": "2026-10-01T10:39:09.847049+00:00",
         "raw_url": "data/provenance/vrt-93d9778f81e6dceb.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0067321054784180035,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 241.30999755859375,
+      "target_adjusted_close": 242.94000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "55acdb7a5a8ccad6626edaeef04dfb6c1c36a4be9072077025f8dfa64d7e3f6d",
+        "raw_file": "data/forecast-monitor/vrt-55acdb7a5a8ccad6.json",
+        "captured_utc": "2026-10-28T22:33:22.712176+00:00",
+        "raw_url": "data/provenance/vrt-55acdb7a5a8ccad6.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|vrt|20|gbm|2026-09-30",
@@ -3666,9 +4206,19 @@
         "captured_utc": "2026-10-01T10:39:09.847049+00:00",
         "raw_url": "data/provenance/vrt-93d9778f81e6dceb.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0067321054784180035,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 241.30999755859375,
+      "target_adjusted_close": 242.94000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "55acdb7a5a8ccad6626edaeef04dfb6c1c36a4be9072077025f8dfa64d7e3f6d",
+        "raw_file": "data/forecast-monitor/vrt-55acdb7a5a8ccad6.json",
+        "captured_utc": "2026-10-28T22:33:22.712176+00:00",
+        "raw_url": "data/provenance/vrt-55acdb7a5a8ccad6.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|vrt|20|ar1|2026-09-30",
@@ -3694,9 +4244,19 @@
         "captured_utc": "2026-10-01T10:39:09.847049+00:00",
         "raw_url": "data/provenance/vrt-93d9778f81e6dceb.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.0067321054784180035,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 241.30999755859375,
+      "target_adjusted_close": 242.94000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/VRT?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "55acdb7a5a8ccad6626edaeef04dfb6c1c36a4be9072077025f8dfa64d7e3f6d",
+        "raw_file": "data/forecast-monitor/vrt-55acdb7a5a8ccad6.json",
+        "captured_utc": "2026-10-28T22:33:22.712176+00:00",
+        "raw_url": "data/provenance/vrt-55acdb7a5a8ccad6.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|alab|5|ridge|2026-09-30",
@@ -3985,9 +4545,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/alab-630d6cfe5ecc65a4.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.18044110715039224,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 355.9700012207031,
+      "target_adjusted_close": 297.20001220703125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "84e8026000ef92975874464ae62252ec2a06d3121ac6a1502cfff8eee3c420b7",
+        "raw_file": "data/forecast-monitor/alab-84e8026000ef9297.json",
+        "captured_utc": "2026-10-28T22:33:22.716763+00:00",
+        "raw_url": "data/provenance/alab-84e8026000ef9297.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|alab|20|ols|2026-09-30",
@@ -4010,9 +4580,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/alab-630d6cfe5ecc65a4.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.18044110715039224,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 355.9700012207031,
+      "target_adjusted_close": 297.20001220703125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "84e8026000ef92975874464ae62252ec2a06d3121ac6a1502cfff8eee3c420b7",
+        "raw_file": "data/forecast-monitor/alab-84e8026000ef9297.json",
+        "captured_utc": "2026-10-28T22:33:22.716763+00:00",
+        "raw_url": "data/provenance/alab-84e8026000ef9297.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|alab|20|knn50|2026-09-30",
@@ -4035,9 +4615,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/alab-630d6cfe5ecc65a4.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.18044110715039224,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 355.9700012207031,
+      "target_adjusted_close": 297.20001220703125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "84e8026000ef92975874464ae62252ec2a06d3121ac6a1502cfff8eee3c420b7",
+        "raw_file": "data/forecast-monitor/alab-84e8026000ef9297.json",
+        "captured_utc": "2026-10-28T22:33:22.716763+00:00",
+        "raw_url": "data/provenance/alab-84e8026000ef9297.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|alab|20|mean|2026-09-30",
@@ -4060,9 +4650,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/alab-630d6cfe5ecc65a4.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.18044110715039224,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 355.9700012207031,
+      "target_adjusted_close": 297.20001220703125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "84e8026000ef92975874464ae62252ec2a06d3121ac6a1502cfff8eee3c420b7",
+        "raw_file": "data/forecast-monitor/alab-84e8026000ef9297.json",
+        "captured_utc": "2026-10-28T22:33:22.716763+00:00",
+        "raw_url": "data/provenance/alab-84e8026000ef9297.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|alab|20|zero|2026-09-30",
@@ -4085,9 +4685,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/alab-630d6cfe5ecc65a4.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.18044110715039224,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 355.9700012207031,
+      "target_adjusted_close": 297.20001220703125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "84e8026000ef92975874464ae62252ec2a06d3121ac6a1502cfff8eee3c420b7",
+        "raw_file": "data/forecast-monitor/alab-84e8026000ef9297.json",
+        "captured_utc": "2026-10-28T22:33:22.716763+00:00",
+        "raw_url": "data/provenance/alab-84e8026000ef9297.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|alab|20|gbm|2026-09-30",
@@ -4110,9 +4720,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/alab-630d6cfe5ecc65a4.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.18044110715039224,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 355.9700012207031,
+      "target_adjusted_close": 297.20001220703125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "84e8026000ef92975874464ae62252ec2a06d3121ac6a1502cfff8eee3c420b7",
+        "raw_file": "data/forecast-monitor/alab-84e8026000ef9297.json",
+        "captured_utc": "2026-10-28T22:33:22.716763+00:00",
+        "raw_url": "data/provenance/alab-84e8026000ef9297.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|alab|20|ar1|2026-09-30",
@@ -4135,9 +4755,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/alab-630d6cfe5ecc65a4.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.18044110715039224,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 355.9700012207031,
+      "target_adjusted_close": 297.20001220703125,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/ALAB?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "84e8026000ef92975874464ae62252ec2a06d3121ac6a1502cfff8eee3c420b7",
+        "raw_file": "data/forecast-monitor/alab-84e8026000ef9297.json",
+        "captured_utc": "2026-10-28T22:33:22.716763+00:00",
+        "raw_url": "data/provenance/alab-84e8026000ef9297.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|crdo|5|ridge|2026-09-30",
@@ -4429,9 +5059,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/crdo-b1f3cb399425770f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.1146499055992638,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 194.7899932861328,
+      "target_adjusted_close": 173.69000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "3c8cb5f3e705453cb4216a5d8e7002046e8f4b70690e50e68608d68123c5ccbc",
+        "raw_file": "data/forecast-monitor/crdo-3c8cb5f3e705453c.json",
+        "captured_utc": "2026-10-28T22:33:22.710775+00:00",
+        "raw_url": "data/provenance/crdo-3c8cb5f3e705453c.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|crdo|20|ols|2026-09-30",
@@ -4457,9 +5097,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/crdo-b1f3cb399425770f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.1146499055992638,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 194.7899932861328,
+      "target_adjusted_close": 173.69000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "3c8cb5f3e705453cb4216a5d8e7002046e8f4b70690e50e68608d68123c5ccbc",
+        "raw_file": "data/forecast-monitor/crdo-3c8cb5f3e705453c.json",
+        "captured_utc": "2026-10-28T22:33:22.710775+00:00",
+        "raw_url": "data/provenance/crdo-3c8cb5f3e705453c.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|crdo|20|knn50|2026-09-30",
@@ -4485,9 +5135,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/crdo-b1f3cb399425770f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.1146499055992638,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 194.7899932861328,
+      "target_adjusted_close": 173.69000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "3c8cb5f3e705453cb4216a5d8e7002046e8f4b70690e50e68608d68123c5ccbc",
+        "raw_file": "data/forecast-monitor/crdo-3c8cb5f3e705453c.json",
+        "captured_utc": "2026-10-28T22:33:22.710775+00:00",
+        "raw_url": "data/provenance/crdo-3c8cb5f3e705453c.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|crdo|20|mean|2026-09-30",
@@ -4513,9 +5173,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/crdo-b1f3cb399425770f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.1146499055992638,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 194.7899932861328,
+      "target_adjusted_close": 173.69000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "3c8cb5f3e705453cb4216a5d8e7002046e8f4b70690e50e68608d68123c5ccbc",
+        "raw_file": "data/forecast-monitor/crdo-3c8cb5f3e705453c.json",
+        "captured_utc": "2026-10-28T22:33:22.710775+00:00",
+        "raw_url": "data/provenance/crdo-3c8cb5f3e705453c.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|crdo|20|zero|2026-09-30",
@@ -4541,9 +5211,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/crdo-b1f3cb399425770f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.1146499055992638,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 194.7899932861328,
+      "target_adjusted_close": 173.69000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "3c8cb5f3e705453cb4216a5d8e7002046e8f4b70690e50e68608d68123c5ccbc",
+        "raw_file": "data/forecast-monitor/crdo-3c8cb5f3e705453c.json",
+        "captured_utc": "2026-10-28T22:33:22.710775+00:00",
+        "raw_url": "data/provenance/crdo-3c8cb5f3e705453c.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|crdo|20|gbm|2026-09-30",
@@ -4569,9 +5249,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/crdo-b1f3cb399425770f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.1146499055992638,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 194.7899932861328,
+      "target_adjusted_close": 173.69000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "3c8cb5f3e705453cb4216a5d8e7002046e8f4b70690e50e68608d68123c5ccbc",
+        "raw_file": "data/forecast-monitor/crdo-3c8cb5f3e705453c.json",
+        "captured_utc": "2026-10-28T22:33:22.710775+00:00",
+        "raw_url": "data/provenance/crdo-3c8cb5f3e705453c.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|crdo|20|ar1|2026-09-30",
@@ -4597,9 +5287,19 @@
         "captured_utc": "2026-10-01T10:39:09.861059+00:00",
         "raw_url": "data/provenance/crdo-b1f3cb399425770f.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.1146499055992638,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 194.7899932861328,
+      "target_adjusted_close": 173.69000244140625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRDO?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "3c8cb5f3e705453cb4216a5d8e7002046e8f4b70690e50e68608d68123c5ccbc",
+        "raw_file": "data/forecast-monitor/crdo-3c8cb5f3e705453c.json",
+        "captured_utc": "2026-10-28T22:33:22.710775+00:00",
+        "raw_url": "data/provenance/crdo-3c8cb5f3e705453c.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|sp500|5|ridge|2026-09-30",
@@ -4891,9 +5591,19 @@
         "captured_utc": "2026-10-01T10:39:09.875193+00:00",
         "raw_url": "data/provenance/index-gspc-cb4b8e7c0ea24c4d.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.01200882493059731,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 7651.5400390625,
+      "target_adjusted_close": 7743.97998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "014c4eeea3cd5c46f3b56ff8ac2839087b3056c841f62c05de94df341630fc83",
+        "raw_file": "data/forecast-monitor/index-gspc-014c4eeea3cd5c46.json",
+        "captured_utc": "2026-10-28T22:33:22.718537+00:00",
+        "raw_url": "data/provenance/index-gspc-014c4eeea3cd5c46.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|sp500|20|ols|2026-09-30",
@@ -4919,9 +5629,19 @@
         "captured_utc": "2026-10-01T10:39:09.875193+00:00",
         "raw_url": "data/provenance/index-gspc-cb4b8e7c0ea24c4d.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.01200882493059731,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 7651.5400390625,
+      "target_adjusted_close": 7743.97998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "014c4eeea3cd5c46f3b56ff8ac2839087b3056c841f62c05de94df341630fc83",
+        "raw_file": "data/forecast-monitor/index-gspc-014c4eeea3cd5c46.json",
+        "captured_utc": "2026-10-28T22:33:22.718537+00:00",
+        "raw_url": "data/provenance/index-gspc-014c4eeea3cd5c46.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|sp500|20|knn50|2026-09-30",
@@ -4947,9 +5667,19 @@
         "captured_utc": "2026-10-01T10:39:09.875193+00:00",
         "raw_url": "data/provenance/index-gspc-cb4b8e7c0ea24c4d.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.01200882493059731,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 7651.5400390625,
+      "target_adjusted_close": 7743.97998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "014c4eeea3cd5c46f3b56ff8ac2839087b3056c841f62c05de94df341630fc83",
+        "raw_file": "data/forecast-monitor/index-gspc-014c4eeea3cd5c46.json",
+        "captured_utc": "2026-10-28T22:33:22.718537+00:00",
+        "raw_url": "data/provenance/index-gspc-014c4eeea3cd5c46.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|sp500|20|mean|2026-09-30",
@@ -4975,9 +5705,19 @@
         "captured_utc": "2026-10-01T10:39:09.875193+00:00",
         "raw_url": "data/provenance/index-gspc-cb4b8e7c0ea24c4d.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.01200882493059731,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 7651.5400390625,
+      "target_adjusted_close": 7743.97998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "014c4eeea3cd5c46f3b56ff8ac2839087b3056c841f62c05de94df341630fc83",
+        "raw_file": "data/forecast-monitor/index-gspc-014c4eeea3cd5c46.json",
+        "captured_utc": "2026-10-28T22:33:22.718537+00:00",
+        "raw_url": "data/provenance/index-gspc-014c4eeea3cd5c46.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|sp500|20|zero|2026-09-30",
@@ -5003,9 +5743,19 @@
         "captured_utc": "2026-10-01T10:39:09.875193+00:00",
         "raw_url": "data/provenance/index-gspc-cb4b8e7c0ea24c4d.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.01200882493059731,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 7651.5400390625,
+      "target_adjusted_close": 7743.97998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "014c4eeea3cd5c46f3b56ff8ac2839087b3056c841f62c05de94df341630fc83",
+        "raw_file": "data/forecast-monitor/index-gspc-014c4eeea3cd5c46.json",
+        "captured_utc": "2026-10-28T22:33:22.718537+00:00",
+        "raw_url": "data/provenance/index-gspc-014c4eeea3cd5c46.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|sp500|20|gbm|2026-09-30",
@@ -5031,9 +5781,19 @@
         "captured_utc": "2026-10-01T10:39:09.875193+00:00",
         "raw_url": "data/provenance/index-gspc-cb4b8e7c0ea24c4d.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.01200882493059731,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 7651.5400390625,
+      "target_adjusted_close": 7743.97998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "014c4eeea3cd5c46f3b56ff8ac2839087b3056c841f62c05de94df341630fc83",
+        "raw_file": "data/forecast-monitor/index-gspc-014c4eeea3cd5c46.json",
+        "captured_utc": "2026-10-28T22:33:22.718537+00:00",
+        "raw_url": "data/provenance/index-gspc-014c4eeea3cd5c46.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|sp500|20|ar1|2026-09-30",
@@ -5059,9 +5819,19 @@
         "captured_utc": "2026-10-01T10:39:09.875193+00:00",
         "raw_url": "data/provenance/index-gspc-cb4b8e7c0ea24c4d.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": 0.01200882493059731,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 7651.5400390625,
+      "target_adjusted_close": 7743.97998046875,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "014c4eeea3cd5c46f3b56ff8ac2839087b3056c841f62c05de94df341630fc83",
+        "raw_file": "data/forecast-monitor/index-gspc-014c4eeea3cd5c46.json",
+        "captured_utc": "2026-10-28T22:33:22.718537+00:00",
+        "raw_url": "data/provenance/index-gspc-014c4eeea3cd5c46.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nasdaq|5|ridge|2026-09-30",
@@ -5353,9 +6123,19 @@
         "captured_utc": "2026-10-01T10:39:09.866058+00:00",
         "raw_url": "data/provenance/index-ixic-f03057c49c5a7ff0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.011653517756601851,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 26861.060546875,
+      "target_adjusted_close": 26549.8515625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d1302af29d69c96326640196d076ef19f926fc9aed7eb01bf0939e86f92a27e6",
+        "raw_file": "data/forecast-monitor/index-ixic-d1302af29d69c963.json",
+        "captured_utc": "2026-10-28T22:33:22.722405+00:00",
+        "raw_url": "data/provenance/index-ixic-d1302af29d69c963.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nasdaq|20|ols|2026-09-30",
@@ -5381,9 +6161,19 @@
         "captured_utc": "2026-10-01T10:39:09.866058+00:00",
         "raw_url": "data/provenance/index-ixic-f03057c49c5a7ff0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.011653517756601851,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 26861.060546875,
+      "target_adjusted_close": 26549.8515625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d1302af29d69c96326640196d076ef19f926fc9aed7eb01bf0939e86f92a27e6",
+        "raw_file": "data/forecast-monitor/index-ixic-d1302af29d69c963.json",
+        "captured_utc": "2026-10-28T22:33:22.722405+00:00",
+        "raw_url": "data/provenance/index-ixic-d1302af29d69c963.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nasdaq|20|knn50|2026-09-30",
@@ -5409,9 +6199,19 @@
         "captured_utc": "2026-10-01T10:39:09.866058+00:00",
         "raw_url": "data/provenance/index-ixic-f03057c49c5a7ff0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.011653517756601851,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 26861.060546875,
+      "target_adjusted_close": 26549.8515625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d1302af29d69c96326640196d076ef19f926fc9aed7eb01bf0939e86f92a27e6",
+        "raw_file": "data/forecast-monitor/index-ixic-d1302af29d69c963.json",
+        "captured_utc": "2026-10-28T22:33:22.722405+00:00",
+        "raw_url": "data/provenance/index-ixic-d1302af29d69c963.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nasdaq|20|mean|2026-09-30",
@@ -5437,9 +6237,19 @@
         "captured_utc": "2026-10-01T10:39:09.866058+00:00",
         "raw_url": "data/provenance/index-ixic-f03057c49c5a7ff0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.011653517756601851,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 26861.060546875,
+      "target_adjusted_close": 26549.8515625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d1302af29d69c96326640196d076ef19f926fc9aed7eb01bf0939e86f92a27e6",
+        "raw_file": "data/forecast-monitor/index-ixic-d1302af29d69c963.json",
+        "captured_utc": "2026-10-28T22:33:22.722405+00:00",
+        "raw_url": "data/provenance/index-ixic-d1302af29d69c963.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nasdaq|20|zero|2026-09-30",
@@ -5465,9 +6275,19 @@
         "captured_utc": "2026-10-01T10:39:09.866058+00:00",
         "raw_url": "data/provenance/index-ixic-f03057c49c5a7ff0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.011653517756601851,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 26861.060546875,
+      "target_adjusted_close": 26549.8515625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d1302af29d69c96326640196d076ef19f926fc9aed7eb01bf0939e86f92a27e6",
+        "raw_file": "data/forecast-monitor/index-ixic-d1302af29d69c963.json",
+        "captured_utc": "2026-10-28T22:33:22.722405+00:00",
+        "raw_url": "data/provenance/index-ixic-d1302af29d69c963.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nasdaq|20|gbm|2026-09-30",
@@ -5493,9 +6313,19 @@
         "captured_utc": "2026-10-01T10:39:09.866058+00:00",
         "raw_url": "data/provenance/index-ixic-f03057c49c5a7ff0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.011653517756601851,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 26861.060546875,
+      "target_adjusted_close": 26549.8515625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d1302af29d69c96326640196d076ef19f926fc9aed7eb01bf0939e86f92a27e6",
+        "raw_file": "data/forecast-monitor/index-ixic-d1302af29d69c963.json",
+        "captured_utc": "2026-10-28T22:33:22.722405+00:00",
+        "raw_url": "data/provenance/index-ixic-d1302af29d69c963.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|nasdaq|20|ar1|2026-09-30",
@@ -5521,9 +6351,19 @@
         "captured_utc": "2026-10-01T10:39:09.866058+00:00",
         "raw_url": "data/provenance/index-ixic-f03057c49c5a7ff0.json"
       },
-      "status": "pending",
-      "target_date": null,
-      "actual_log_return": null
+      "status": "scored",
+      "target_date": "2026-10-28",
+      "actual_log_return": -0.011653517756601851,
+      "scored_utc": "2026-10-28T22:33:22.758986+00:00",
+      "origin_adjusted_close": 26861.060546875,
+      "target_adjusted_close": 26549.8515625,
+      "outcome_source": {
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&period1=1790726400&period2=1793226862",
+        "sha256": "d1302af29d69c96326640196d076ef19f926fc9aed7eb01bf0939e86f92a27e6",
+        "raw_file": "data/forecast-monitor/index-ixic-d1302af29d69c963.json",
+        "captured_utc": "2026-10-28T22:33:22.722405+00:00",
+        "raw_url": "data/provenance/index-ixic-d1302af29d69c963.json"
+      }
     },
     {
       "key": "7327be40ccd3c72157b767aba8997244a91fa6019a37945228a54cc5621c4a00|ihsg|5|ridge|2026-09-30",
@@ -5920,12 +6760,12 @@
   ],
   "errors": [],
   "protocol": "Frozen 5/20-session adjusted-close log-return forecasts. Registration must precede the first post-origin regular session open. Provider session timestamps determine eligibility; unknown and late registrations are excluded. Outcomes use completed daily adjusted closes in one retrieval vintage. No refitting, automatic trades, or backdated prospective results. Overlapping horizons are not independent samples.",
-  "checked_utc": "2026-10-28T16:37:17.121654+00:00",
-  "checked_stamp": 1793205437.1216536,
+  "checked_utc": "2026-10-28T22:33:22.758986+00:00",
+  "checked_stamp": 1793226802.758986,
   "summary": {
     "registered_records": 182,
-    "pending": 84,
-    "scored": 84,
+    "pending": 0,
+    "scored": 168,
     "late": 14,
     "unknown": 0,
     "metrics": [
@@ -6028,6 +6868,104 @@
         "zero_rmse_same_origins": 0.07122838374171976
       },
       {
+        "asset": "alab",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.23480859709837962,
+        "mae_log_return": 0.23480859709837962,
+        "coverage90": null,
+        "interval_observations": 0,
+        "matched_observations": 1,
+        "matched_rmse": 0.23480859709837962,
+        "mean_rmse_same_origins": 0.22822506328334724,
+        "zero_rmse_same_origins": 0.18044110715039224
+      },
+      {
+        "asset": "alab",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.17100751387063684,
+        "mae_log_return": 0.17100751387063684,
+        "coverage90": null,
+        "interval_observations": 0,
+        "matched_observations": 1,
+        "matched_rmse": 0.17100751387063684,
+        "mean_rmse_same_origins": 0.22822506328334724,
+        "zero_rmse_same_origins": 0.18044110715039224
+      },
+      {
+        "asset": "alab",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.21929681712132262,
+        "mae_log_return": 0.21929681712132262,
+        "coverage90": null,
+        "interval_observations": 0,
+        "matched_observations": 1,
+        "matched_rmse": 0.21929681712132262,
+        "mean_rmse_same_origins": 0.22822506328334724,
+        "zero_rmse_same_origins": 0.18044110715039224
+      },
+      {
+        "asset": "alab",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.22822506328334724,
+        "mae_log_return": 0.22822506328334724,
+        "coverage90": null,
+        "interval_observations": 0,
+        "matched_observations": 1,
+        "matched_rmse": 0.22822506328334724,
+        "mean_rmse_same_origins": 0.22822506328334724,
+        "zero_rmse_same_origins": 0.18044110715039224
+      },
+      {
+        "asset": "alab",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.14632110699271492,
+        "mae_log_return": 0.14632110699271492,
+        "coverage90": null,
+        "interval_observations": 0,
+        "matched_observations": 1,
+        "matched_rmse": 0.14632110699271492,
+        "mean_rmse_same_origins": 0.22822506328334724,
+        "zero_rmse_same_origins": 0.18044110715039224
+      },
+      {
+        "asset": "alab",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.18389509009150123,
+        "mae_log_return": 0.18389509009150123,
+        "coverage90": null,
+        "interval_observations": 0,
+        "matched_observations": 1,
+        "matched_rmse": 0.18389509009150123,
+        "mean_rmse_same_origins": 0.22822506328334724,
+        "zero_rmse_same_origins": 0.18044110715039224
+      },
+      {
+        "asset": "alab",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.18044110715039224,
+        "mae_log_return": 0.18044110715039224,
+        "coverage90": null,
+        "interval_observations": 0,
+        "matched_observations": 1,
+        "matched_rmse": 0.18044110715039224,
+        "mean_rmse_same_origins": 0.22822506328334724,
+        "zero_rmse_same_origins": 0.18044110715039224
+      },
+      {
         "asset": "amd",
         "horizon": 5,
         "model": "ar1",
@@ -6124,6 +7062,104 @@
         "matched_rmse": 0.0542426746499025,
         "mean_rmse_same_origins": 0.04602420696098471,
         "zero_rmse_same_origins": 0.0542426746499025
+      },
+      {
+        "asset": "amd",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.104500477233576,
+        "mae_log_return": 0.104500477233576,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.104500477233576,
+        "mean_rmse_same_origins": 0.08832865302150969,
+        "zero_rmse_same_origins": 0.05600523573186854
+      },
+      {
+        "asset": "amd",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.04364546120191426,
+        "mae_log_return": 0.04364546120191426,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.04364546120191426,
+        "mean_rmse_same_origins": 0.08832865302150969,
+        "zero_rmse_same_origins": 0.05600523573186854
+      },
+      {
+        "asset": "amd",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.11584466244075256,
+        "mae_log_return": 0.11584466244075256,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.11584466244075256,
+        "mean_rmse_same_origins": 0.08832865302150969,
+        "zero_rmse_same_origins": 0.05600523573186854
+      },
+      {
+        "asset": "amd",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.08832865302150969,
+        "mae_log_return": 0.08832865302150969,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.08832865302150969,
+        "mean_rmse_same_origins": 0.08832865302150969,
+        "zero_rmse_same_origins": 0.05600523573186854
+      },
+      {
+        "asset": "amd",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.0673949781528844,
+        "mae_log_return": 0.0673949781528844,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.0673949781528844,
+        "mean_rmse_same_origins": 0.08832865302150969,
+        "zero_rmse_same_origins": 0.05600523573186854
+      },
+      {
+        "asset": "amd",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.06888424958130061,
+        "mae_log_return": 0.06888424958130061,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.06888424958130061,
+        "mean_rmse_same_origins": 0.08832865302150969,
+        "zero_rmse_same_origins": 0.05600523573186854
+      },
+      {
+        "asset": "amd",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.05600523573186854,
+        "mae_log_return": 0.05600523573186854,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.05600523573186854,
+        "mean_rmse_same_origins": 0.08832865302150969,
+        "zero_rmse_same_origins": 0.05600523573186854
       },
       {
         "asset": "avgo",
@@ -6224,6 +7260,104 @@
         "zero_rmse_same_origins": 0.06961723874613385
       },
       {
+        "asset": "avgo",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.036960775245882954,
+        "mae_log_return": 0.036960775245882954,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.036960775245882954,
+        "mean_rmse_same_origins": 0.02352907614509675,
+        "zero_rmse_same_origins": 0.0017638556982386415
+      },
+      {
+        "asset": "avgo",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.078585235590369,
+        "mae_log_return": 0.078585235590369,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.078585235590369,
+        "mean_rmse_same_origins": 0.02352907614509675,
+        "zero_rmse_same_origins": 0.0017638556982386415
+      },
+      {
+        "asset": "avgo",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.06891166876275036,
+        "mae_log_return": 0.06891166876275036,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.06891166876275036,
+        "mean_rmse_same_origins": 0.02352907614509675,
+        "zero_rmse_same_origins": 0.0017638556982386415
+      },
+      {
+        "asset": "avgo",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.02352907614509675,
+        "mae_log_return": 0.02352907614509675,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.02352907614509675,
+        "mean_rmse_same_origins": 0.02352907614509675,
+        "zero_rmse_same_origins": 0.0017638556982386415
+      },
+      {
+        "asset": "avgo",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.06042946237749995,
+        "mae_log_return": 0.06042946237749995,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.06042946237749995,
+        "mean_rmse_same_origins": 0.02352907614509675,
+        "zero_rmse_same_origins": 0.0017638556982386415
+      },
+      {
+        "asset": "avgo",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.05982988591206735,
+        "mae_log_return": 0.05982988591206735,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.05982988591206735,
+        "mean_rmse_same_origins": 0.02352907614509675,
+        "zero_rmse_same_origins": 0.0017638556982386415
+      },
+      {
+        "asset": "avgo",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.0017638556982386415,
+        "mae_log_return": 0.0017638556982386415,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.0017638556982386415,
+        "mean_rmse_same_origins": 0.02352907614509675,
+        "zero_rmse_same_origins": 0.0017638556982386415
+      },
+      {
         "asset": "crdo",
         "horizon": 5,
         "model": "ar1",
@@ -6320,6 +7454,104 @@
         "matched_rmse": 0.12175095417569873,
         "mean_rmse_same_origins": 0.10832601093706852,
         "zero_rmse_same_origins": 0.12175095417569873
+      },
+      {
+        "asset": "crdo",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.18273604186869422,
+        "mae_log_return": 0.18273604186869422,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.18273604186869422,
+        "mean_rmse_same_origins": 0.16689994694883192,
+        "zero_rmse_same_origins": 0.1146499055992638
+      },
+      {
+        "asset": "crdo",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.139936653768866,
+        "mae_log_return": 0.139936653768866,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.139936653768866,
+        "mean_rmse_same_origins": 0.16689994694883192,
+        "zero_rmse_same_origins": 0.1146499055992638
+      },
+      {
+        "asset": "crdo",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.18344483959463678,
+        "mae_log_return": 0.18344483959463678,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.18344483959463678,
+        "mean_rmse_same_origins": 0.16689994694883192,
+        "zero_rmse_same_origins": 0.1146499055992638
+      },
+      {
+        "asset": "crdo",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.16689994694883192,
+        "mae_log_return": 0.16689994694883192,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.16689994694883192,
+        "mean_rmse_same_origins": 0.16689994694883192,
+        "zero_rmse_same_origins": 0.1146499055992638
+      },
+      {
+        "asset": "crdo",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.18894067606808673,
+        "mae_log_return": 0.18894067606808673,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.18894067606808673,
+        "mean_rmse_same_origins": 0.16689994694883192,
+        "zero_rmse_same_origins": 0.1146499055992638
+      },
+      {
+        "asset": "crdo",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.19246510868171723,
+        "mae_log_return": 0.19246510868171723,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.19246510868171723,
+        "mean_rmse_same_origins": 0.16689994694883192,
+        "zero_rmse_same_origins": 0.1146499055992638
+      },
+      {
+        "asset": "crdo",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.1146499055992638,
+        "mae_log_return": 0.1146499055992638,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.1146499055992638,
+        "mean_rmse_same_origins": 0.16689994694883192,
+        "zero_rmse_same_origins": 0.1146499055992638
       },
       {
         "asset": "etn",
@@ -6420,6 +7652,104 @@
         "zero_rmse_same_origins": 0.003762884581499373
       },
       {
+        "asset": "etn",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.10929649311413814,
+        "mae_log_return": 0.10929649311413814,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.10929649311413814,
+        "mean_rmse_same_origins": 0.10608613668915647,
+        "zero_rmse_same_origins": 0.08960630851586124
+      },
+      {
+        "asset": "etn",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.11093507297836397,
+        "mae_log_return": 0.11093507297836397,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.11093507297836397,
+        "mean_rmse_same_origins": 0.10608613668915647,
+        "zero_rmse_same_origins": 0.08960630851586124
+      },
+      {
+        "asset": "etn",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.12698414909786698,
+        "mae_log_return": 0.12698414909786698,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.12698414909786698,
+        "mean_rmse_same_origins": 0.10608613668915647,
+        "zero_rmse_same_origins": 0.08960630851586124
+      },
+      {
+        "asset": "etn",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.10608613668915647,
+        "mae_log_return": 0.10608613668915647,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.10608613668915647,
+        "mean_rmse_same_origins": 0.10608613668915647,
+        "zero_rmse_same_origins": 0.08960630851586124
+      },
+      {
+        "asset": "etn",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.09409940728824688,
+        "mae_log_return": 0.09409940728824688,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.09409940728824688,
+        "mean_rmse_same_origins": 0.10608613668915647,
+        "zero_rmse_same_origins": 0.08960630851586124
+      },
+      {
+        "asset": "etn",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.09452067575963294,
+        "mae_log_return": 0.09452067575963294,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.09452067575963294,
+        "mean_rmse_same_origins": 0.10608613668915647,
+        "zero_rmse_same_origins": 0.08960630851586124
+      },
+      {
+        "asset": "etn",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.08960630851586124,
+        "mae_log_return": 0.08960630851586124,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.08960630851586124,
+        "mean_rmse_same_origins": 0.10608613668915647,
+        "zero_rmse_same_origins": 0.08960630851586124
+      },
+      {
         "asset": "intc",
         "horizon": 5,
         "model": "ar1",
@@ -6516,6 +7846,104 @@
         "matched_rmse": 0.06095737647923514,
         "mean_rmse_same_origins": 0.06406485934868314,
         "zero_rmse_same_origins": 0.06095737647923514
+      },
+      {
+        "asset": "intc",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.2639711018715718,
+        "mae_log_return": 0.2639711018715718,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.2639711018715718,
+        "mean_rmse_same_origins": 0.2412577173417262,
+        "zero_rmse_same_origins": 0.22996628140404954
+      },
+      {
+        "asset": "intc",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.28200606507129666,
+        "mae_log_return": 0.28200606507129666,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.28200606507129666,
+        "mean_rmse_same_origins": 0.2412577173417262,
+        "zero_rmse_same_origins": 0.22996628140404954
+      },
+      {
+        "asset": "intc",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.3318829841660319,
+        "mae_log_return": 0.3318829841660319,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.3318829841660319,
+        "mean_rmse_same_origins": 0.2412577173417262,
+        "zero_rmse_same_origins": 0.22996628140404954
+      },
+      {
+        "asset": "intc",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.2412577173417262,
+        "mae_log_return": 0.2412577173417262,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.2412577173417262,
+        "mean_rmse_same_origins": 0.2412577173417262,
+        "zero_rmse_same_origins": 0.22996628140404954
+      },
+      {
+        "asset": "intc",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.3086349510009983,
+        "mae_log_return": 0.3086349510009983,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.3086349510009983,
+        "mean_rmse_same_origins": 0.2412577173417262,
+        "zero_rmse_same_origins": 0.22996628140404954
+      },
+      {
+        "asset": "intc",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.3076674640061039,
+        "mae_log_return": 0.3076674640061039,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.3076674640061039,
+        "mean_rmse_same_origins": 0.2412577173417262,
+        "zero_rmse_same_origins": 0.22996628140404954
+      },
+      {
+        "asset": "intc",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.22996628140404954,
+        "mae_log_return": 0.22996628140404954,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.22996628140404954,
+        "mean_rmse_same_origins": 0.2412577173417262,
+        "zero_rmse_same_origins": 0.22996628140404954
       },
       {
         "asset": "mu",
@@ -6616,6 +8044,104 @@
         "zero_rmse_same_origins": 0.021263081974038433
       },
       {
+        "asset": "mu",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.15274088706145283,
+        "mae_log_return": 0.15274088706145283,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.15274088706145283,
+        "mean_rmse_same_origins": 0.11091557913984981,
+        "zero_rmse_same_origins": 0.07983292550066433
+      },
+      {
+        "asset": "mu",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.1240203009033678,
+        "mae_log_return": 0.1240203009033678,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.1240203009033678,
+        "mean_rmse_same_origins": 0.11091557913984981,
+        "zero_rmse_same_origins": 0.07983292550066433
+      },
+      {
+        "asset": "mu",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.10199638799597421,
+        "mae_log_return": 0.10199638799597421,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.10199638799597421,
+        "mean_rmse_same_origins": 0.11091557913984981,
+        "zero_rmse_same_origins": 0.07983292550066433
+      },
+      {
+        "asset": "mu",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.11091557913984981,
+        "mae_log_return": 0.11091557913984981,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.11091557913984981,
+        "mean_rmse_same_origins": 0.11091557913984981,
+        "zero_rmse_same_origins": 0.07983292550066433
+      },
+      {
+        "asset": "mu",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.17814927272393305,
+        "mae_log_return": 0.17814927272393305,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.17814927272393305,
+        "mean_rmse_same_origins": 0.11091557913984981,
+        "zero_rmse_same_origins": 0.07983292550066433
+      },
+      {
+        "asset": "mu",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.17532636693106418,
+        "mae_log_return": 0.17532636693106418,
+        "coverage90": 0.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.17532636693106418,
+        "mean_rmse_same_origins": 0.11091557913984981,
+        "zero_rmse_same_origins": 0.07983292550066433
+      },
+      {
+        "asset": "mu",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.07983292550066433,
+        "mae_log_return": 0.07983292550066433,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.07983292550066433,
+        "mean_rmse_same_origins": 0.11091557913984981,
+        "zero_rmse_same_origins": 0.07983292550066433
+      },
+      {
         "asset": "nasdaq",
         "horizon": 5,
         "model": "ar1",
@@ -6712,6 +8238,104 @@
         "matched_rmse": 0.0249143014960252,
         "mean_rmse_same_origins": 0.021803010372614815,
         "zero_rmse_same_origins": 0.0249143014960252
+      },
+      {
+        "asset": "nasdaq",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.030230836122201253,
+        "mae_log_return": 0.030230836122201253,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.030230836122201253,
+        "mean_rmse_same_origins": 0.02412250687606725,
+        "zero_rmse_same_origins": 0.011653517756601851
+      },
+      {
+        "asset": "nasdaq",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.02325282029683032,
+        "mae_log_return": 0.02325282029683032,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.02325282029683032,
+        "mean_rmse_same_origins": 0.02412250687606725,
+        "zero_rmse_same_origins": 0.011653517756601851
+      },
+      {
+        "asset": "nasdaq",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.021931782603615432,
+        "mae_log_return": 0.021931782603615432,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.021931782603615432,
+        "mean_rmse_same_origins": 0.02412250687606725,
+        "zero_rmse_same_origins": 0.011653517756601851
+      },
+      {
+        "asset": "nasdaq",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.02412250687606725,
+        "mae_log_return": 0.02412250687606725,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.02412250687606725,
+        "mean_rmse_same_origins": 0.02412250687606725,
+        "zero_rmse_same_origins": 0.011653517756601851
+      },
+      {
+        "asset": "nasdaq",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.023449504738724987,
+        "mae_log_return": 0.023449504738724987,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.023449504738724987,
+        "mean_rmse_same_origins": 0.02412250687606725,
+        "zero_rmse_same_origins": 0.011653517756601851
+      },
+      {
+        "asset": "nasdaq",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.023337374441966825,
+        "mae_log_return": 0.023337374441966825,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.023337374441966825,
+        "mean_rmse_same_origins": 0.02412250687606725,
+        "zero_rmse_same_origins": 0.011653517756601851
+      },
+      {
+        "asset": "nasdaq",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.011653517756601851,
+        "mae_log_return": 0.011653517756601851,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.011653517756601851,
+        "mean_rmse_same_origins": 0.02412250687606725,
+        "zero_rmse_same_origins": 0.011653517756601851
       },
       {
         "asset": "nvda",
@@ -6812,6 +8436,104 @@
         "zero_rmse_same_origins": 0.03903037519345051
       },
       {
+        "asset": "nvda",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.10312728746807523,
+        "mae_log_return": 0.10312728746807523,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.10312728746807523,
+        "mean_rmse_same_origins": 0.09348821924840531,
+        "zero_rmse_same_origins": 0.05860699708229108
+      },
+      {
+        "asset": "nvda",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.0994171280881484,
+        "mae_log_return": 0.0994171280881484,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.0994171280881484,
+        "mean_rmse_same_origins": 0.09348821924840531,
+        "zero_rmse_same_origins": 0.05860699708229108
+      },
+      {
+        "asset": "nvda",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.12822553578860954,
+        "mae_log_return": 0.12822553578860954,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.12822553578860954,
+        "mean_rmse_same_origins": 0.09348821924840531,
+        "zero_rmse_same_origins": 0.05860699708229108
+      },
+      {
+        "asset": "nvda",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.09348821924840531,
+        "mae_log_return": 0.09348821924840531,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.09348821924840531,
+        "mean_rmse_same_origins": 0.09348821924840531,
+        "zero_rmse_same_origins": 0.05860699708229108
+      },
+      {
+        "asset": "nvda",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.10900429312904303,
+        "mae_log_return": 0.10900429312904303,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.10900429312904303,
+        "mean_rmse_same_origins": 0.09348821924840531,
+        "zero_rmse_same_origins": 0.05860699708229108
+      },
+      {
+        "asset": "nvda",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.10863028348958978,
+        "mae_log_return": 0.10863028348958978,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.10863028348958978,
+        "mean_rmse_same_origins": 0.09348821924840531,
+        "zero_rmse_same_origins": 0.05860699708229108
+      },
+      {
+        "asset": "nvda",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.05860699708229108,
+        "mae_log_return": 0.05860699708229108,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.05860699708229108,
+        "mean_rmse_same_origins": 0.09348821924840531,
+        "zero_rmse_same_origins": 0.05860699708229108
+      },
+      {
         "asset": "sp500",
         "horizon": 5,
         "model": "ar1",
@@ -6908,6 +8630,104 @@
         "matched_rmse": 0.019443693659165467,
         "mean_rmse_same_origins": 0.016986101845415484,
         "zero_rmse_same_origins": 0.019443693659165467
+      },
+      {
+        "asset": "sp500",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.003155844131334455,
+        "mae_log_return": 0.003155844131334455,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.003155844131334455,
+        "mean_rmse_same_origins": 0.002125315239237856,
+        "zero_rmse_same_origins": 0.01200882493059731
+      },
+      {
+        "asset": "sp500",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.003030913760724386,
+        "mae_log_return": 0.003030913760724386,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.003030913760724386,
+        "mean_rmse_same_origins": 0.002125315239237856,
+        "zero_rmse_same_origins": 0.01200882493059731
+      },
+      {
+        "asset": "sp500",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.021389031091132528,
+        "mae_log_return": 0.021389031091132528,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.021389031091132528,
+        "mean_rmse_same_origins": 0.002125315239237856,
+        "zero_rmse_same_origins": 0.01200882493059731
+      },
+      {
+        "asset": "sp500",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.002125315239237856,
+        "mae_log_return": 0.002125315239237856,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.002125315239237856,
+        "mean_rmse_same_origins": 0.002125315239237856,
+        "zero_rmse_same_origins": 0.01200882493059731
+      },
+      {
+        "asset": "sp500",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.0058100493234481765,
+        "mae_log_return": 0.0058100493234481765,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.0058100493234481765,
+        "mean_rmse_same_origins": 0.002125315239237856,
+        "zero_rmse_same_origins": 0.01200882493059731
+      },
+      {
+        "asset": "sp500",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.005852465772874856,
+        "mae_log_return": 0.005852465772874856,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.005852465772874856,
+        "mean_rmse_same_origins": 0.002125315239237856,
+        "zero_rmse_same_origins": 0.01200882493059731
+      },
+      {
+        "asset": "sp500",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.01200882493059731,
+        "mae_log_return": 0.01200882493059731,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.01200882493059731,
+        "mean_rmse_same_origins": 0.002125315239237856,
+        "zero_rmse_same_origins": 0.01200882493059731
       },
       {
         "asset": "tsm",
@@ -7008,6 +8828,104 @@
         "zero_rmse_same_origins": 0.03449325575147915
       },
       {
+        "asset": "tsm",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.0827513514471574,
+        "mae_log_return": 0.0827513514471574,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.0827513514471574,
+        "mean_rmse_same_origins": 0.060705028128505215,
+        "zero_rmse_same_origins": 0.03724890253704884
+      },
+      {
+        "asset": "tsm",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.06427089427173059,
+        "mae_log_return": 0.06427089427173059,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.06427089427173059,
+        "mean_rmse_same_origins": 0.060705028128505215,
+        "zero_rmse_same_origins": 0.03724890253704884
+      },
+      {
+        "asset": "tsm",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.11683660969890403,
+        "mae_log_return": 0.11683660969890403,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.11683660969890403,
+        "mean_rmse_same_origins": 0.060705028128505215,
+        "zero_rmse_same_origins": 0.03724890253704884
+      },
+      {
+        "asset": "tsm",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.060705028128505215,
+        "mae_log_return": 0.060705028128505215,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.060705028128505215,
+        "mean_rmse_same_origins": 0.060705028128505215,
+        "zero_rmse_same_origins": 0.03724890253704884
+      },
+      {
+        "asset": "tsm",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.08441793787591048,
+        "mae_log_return": 0.08441793787591048,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.08441793787591048,
+        "mean_rmse_same_origins": 0.060705028128505215,
+        "zero_rmse_same_origins": 0.03724890253704884
+      },
+      {
+        "asset": "tsm",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.08387700020971353,
+        "mae_log_return": 0.08387700020971353,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.08387700020971353,
+        "mean_rmse_same_origins": 0.060705028128505215,
+        "zero_rmse_same_origins": 0.03724890253704884
+      },
+      {
+        "asset": "tsm",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.03724890253704884,
+        "mae_log_return": 0.03724890253704884,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.03724890253704884,
+        "mean_rmse_same_origins": 0.060705028128505215,
+        "zero_rmse_same_origins": 0.03724890253704884
+      },
+      {
         "asset": "vrt",
         "horizon": 5,
         "model": "ar1",
@@ -7104,6 +9022,104 @@
         "matched_rmse": 0.021239043150942546,
         "mean_rmse_same_origins": 0.01256506719669809,
         "zero_rmse_same_origins": 0.021239043150942546
+      },
+      {
+        "asset": "vrt",
+        "horizon": 20,
+        "model": "ar1",
+        "observations": 1,
+        "rmse_log_return": 0.04389825304056692,
+        "mae_log_return": 0.04389825304056692,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.04389825304056692,
+        "mean_rmse_same_origins": 0.0284894074111397,
+        "zero_rmse_same_origins": 0.0067321054784180035
+      },
+      {
+        "asset": "vrt",
+        "horizon": 20,
+        "model": "gbm",
+        "observations": 1,
+        "rmse_log_return": 0.008849873825480652,
+        "mae_log_return": 0.008849873825480652,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.008849873825480652,
+        "mean_rmse_same_origins": 0.0284894074111397,
+        "zero_rmse_same_origins": 0.0067321054784180035
+      },
+      {
+        "asset": "vrt",
+        "horizon": 20,
+        "model": "knn50",
+        "observations": 1,
+        "rmse_log_return": 0.024122405237472305,
+        "mae_log_return": 0.024122405237472305,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.024122405237472305,
+        "mean_rmse_same_origins": 0.0284894074111397,
+        "zero_rmse_same_origins": 0.0067321054784180035
+      },
+      {
+        "asset": "vrt",
+        "horizon": 20,
+        "model": "mean",
+        "observations": 1,
+        "rmse_log_return": 0.0284894074111397,
+        "mae_log_return": 0.0284894074111397,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.0284894074111397,
+        "mean_rmse_same_origins": 0.0284894074111397,
+        "zero_rmse_same_origins": 0.0067321054784180035
+      },
+      {
+        "asset": "vrt",
+        "horizon": 20,
+        "model": "ols",
+        "observations": 1,
+        "rmse_log_return": 0.02161996360263732,
+        "mae_log_return": 0.02161996360263732,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.02161996360263732,
+        "mean_rmse_same_origins": 0.0284894074111397,
+        "zero_rmse_same_origins": 0.0067321054784180035
+      },
+      {
+        "asset": "vrt",
+        "horizon": 20,
+        "model": "ridge",
+        "observations": 1,
+        "rmse_log_return": 0.021740629864217972,
+        "mae_log_return": 0.021740629864217972,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.021740629864217972,
+        "mean_rmse_same_origins": 0.0284894074111397,
+        "zero_rmse_same_origins": 0.0067321054784180035
+      },
+      {
+        "asset": "vrt",
+        "horizon": 20,
+        "model": "zero",
+        "observations": 1,
+        "rmse_log_return": 0.0067321054784180035,
+        "mae_log_return": 0.0067321054784180035,
+        "coverage90": 1.0,
+        "interval_observations": 1,
+        "matched_observations": 1,
+        "matched_rmse": 0.0067321054784180035,
+        "mean_rmse_same_origins": 0.0284894074111397,
+        "zero_rmse_same_origins": 0.0067321054784180035
       }
     ]
   }
